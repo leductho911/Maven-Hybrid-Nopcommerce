@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite parallel="false" name="NopCommerce">
+
+
+    <test name="Run on chrome">
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="TestCase"/>
+        </classes>
+    </test>
+
+</suite>
