@@ -22,14 +22,11 @@
         <!-- Global variable for dependencies -->
         <webdriver.version>4.9.1</webdriver.version>
         <testng.version>7.4.0</testng.version>
-        <jackson.version>2.15.2</jackson.version>
-        <webdrivermanager.version>5.3.3</webdrivermanager.version>
-        <aspectj.version>1.9.8</aspectj.version>
-        <allure.version>2.18.1</allure.version>
-        <extent.version>5.0.8</extent.version>
+        <webdrivermanager.version>5.4.0</webdrivermanager.version>
         <faker.version>1.0.1</faker.version>
         <log4j.version>2.20.0</log4j.version>
         <reportng.version>1.1.4</reportng.version>
+        <aspectj.version>1.9.8</aspectj.version>
 
 
     </properties>
@@ -59,12 +56,6 @@
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>
             <version>${webdrivermanager.version}</version>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>jcl-over-slf4j</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
 
         <dependency>
@@ -72,24 +63,6 @@
             <artifactId>reportng</artifactId>
             <version>${reportng.version}</version>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-core</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>${jackson.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.aventstack</groupId>
-            <artifactId>extentreports</artifactId>
-            <version>${extent.version}</version>
         </dependency>
 
         <dependency>
@@ -109,12 +82,6 @@
             <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-api</artifactId>
             <version>${log4j.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>org.slf4j</groupId>
-            <artifactId>slf4j-api</artifactId>
-            <version>1.7.24</version>
         </dependency>
 
         <dependency>
@@ -141,17 +108,13 @@
             <version>${faker.version}</version>
         </dependency>
 
-        <dependency>
-            <groupId>io.qameta.allure</groupId>
-            <artifactId>allure-testng</artifactId>
-            <version>${allure.version}</version>
-        </dependency>
 
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
         <dependency>
-            <groupId>org.aspectj</groupId>
-            <artifactId>aspectjweaver</artifactId>
-            <version>${aspectj.version}</version>
-            <scope>runtime</scope>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.28</version>
+            <scope>provided</scope>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/com.beust/jcommander -->
@@ -161,13 +124,39 @@
             <version>1.82</version>
         </dependency>
 
+
         <!-- https://mvnrepository.com/artifact/org.aeonbits.owner/owner -->
         <dependency>
             <groupId>org.aeonbits.owner</groupId>
             <artifactId>owner</artifactId>
             <version>1.0.12</version>
         </dependency>
+
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-testng</artifactId>
+            <version>2.23.0</version>
+            <scope>test</scope>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-attachments -->
+        <dependency>
+            <groupId>io.qameta.allure</groupId>
+            <artifactId>allure-attachments</artifactId>
+            <version>2.23.0</version>
+        </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+        <dependency>
+            <groupId>com.googlecode.json-simple</groupId>
+            <artifactId>json-simple</artifactId>
+            <version>1.1.1</version>
+        </dependency>
+
+
     </dependencies>
+
+
 
     <!-- Compiler/ Run Test -->
     <build>
@@ -196,7 +185,6 @@
                         <suiteXmlFile>src/test/resources/runTest.xml</suiteXmlFile>
                     </suiteXmlFiles>
 
-                    <!-- Argument -->
                     <argLine>
                         -javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"
                     </argLine>

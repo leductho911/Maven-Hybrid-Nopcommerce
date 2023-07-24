@@ -1,4 +1,4 @@
-package ultilities;
+package utils;
 
 import org.aeonbits.owner.Config;
 import org.aeonbits.owner.Config.Sources;

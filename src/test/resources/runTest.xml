@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite parallel="false" name="NopCommerce">
+<suite parallel="false" name="NopCommerce project">
+
+
+    <listeners>
+        <listener class-name="reportConfig.AllureTestListener"/>
+    </listeners>
 
 
     <test name="Run on chrome">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="TestCase"/>
+            <class name="commonTest.LoginSuccess"/>
+            <class name="user.MyAccount"/>
         </classes>
     </test>
 

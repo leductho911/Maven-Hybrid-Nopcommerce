@@ -1,0 +1,16 @@
+{
+  "invaliduserdata": [
+    {
+      "firstname": "Tho",
+      "lastname": "Le",
+      "email": "@@@",
+      "password": "123"
+    },
+    {
+      "firstname": "Trang",
+      "lastname": "Nguyen",
+      "email": "nht4982gmail",
+      "password": "@#J"
+    }
+  ]
+}
