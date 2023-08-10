@@ -148,6 +148,7 @@ public class Order extends BaseTest {
 		customerInfoPage.openPageByPageName("Orders");
 		ordersPage = PageGeneratorManager.getOrdersPage(driver);
 		assertEquals(ordersPage.getOrderNumber(), orderNumber);
+		
 	}
 
 
