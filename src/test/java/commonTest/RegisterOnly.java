@@ -3,32 +3,24 @@ package commonTest;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import org.aeonbits.owner.ConfigFactory;
-import org.openqa.selenium.Cookie;
-import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Parameters;
 import pageObjects.HomePageObj;
-import pageObjects.LoginPageObj;
 import pageObjects.RegisterPageObj;
 import utils.DataFaker;
 import utils.Environment;
 
-import java.util.Set;
-
 import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
 
-public class LoginSuccess extends BaseTest {
+public class RegisterOnly extends BaseTest {
 	private HomePageObj homePage;
 	private RegisterPageObj registerPage;
-
-	private LoginPageObj loginPage;
-	public static Set<Cookie> loginCookies;
+	public static String email, password;
+	private String firstName, lastName;
 	private DataFaker dataFaker;
 
-	private String email, password, firstName, lastName;
-	@BeforeTest
+	//@BeforeTest
 	@Parameters("browser")
-	public void Login (String browserName){
+	public void Register_User(String browserName){
 		String environmentName = System.getProperty("environment");
 		if (environmentName != null) {
 			ConfigFactory.setProperty("env", environmentName);
@@ -46,23 +38,16 @@ public class LoginSuccess extends BaseTest {
 		password = dataFaker.getPassword();
 
 		homePage = PageGeneratorManager.getHomePage(driver);
-		registerPage = homePage.clickToRegisterLink();
-		registerPage.clickToRegisterLink();
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailTextbox(email);
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(password);
-		registerPage.clickToRegisterButton();
+		homePage.clickToLinkAtHeader("Register");
+		registerPage = PageGeneratorManager.getRegisterPage(driver);
+		registerPage.inputToTextboxByLabel("First name", firstName);
+		registerPage.inputToTextboxByLabel("Last name", lastName);
+		registerPage.inputToTextboxByLabel("Last name", lastName);
+		registerPage.inputToTextboxByLabel("Email", email);
+		registerPage.inputToTextboxByLabel("Password", password);
+		registerPage.inputToTextboxByLabel("Confirm password", password);
+		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
-
-		loginPage = registerPage.clickToLoginLink();
-		loginPage.inputToEmailTextbox(email);
-		loginPage.inputToPasswordTextbox(password);
-		homePage = loginPage.clickToLoginButton();
-		assertTrue(homePage.isHomepageDisplayed());
-
-		loginCookies = homePage.getAllCookies();
 
 		driver.quit();
 	}

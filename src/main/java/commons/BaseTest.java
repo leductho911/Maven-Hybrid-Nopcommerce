@@ -11,16 +11,37 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
 import org.testng.annotations.*;
+import reportConfig.ScreenRecorderUtil;
 import utils.Environment;
 import utils.Log;
 
 import java.io.File;
+import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.Random;
 
 public class BaseTest {
 	protected WebDriver driver;
 	Environment environment;
+
+	public static String randomString(int maxLength) {
+		if (maxLength <= 0) {
+			throw new IllegalArgumentException("Max length must be greater than 0.");
+		}
+
+		String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+		Random random = new Random();
+
+		int length = random.nextInt(maxLength) + 1;
+		StringBuilder sb = new StringBuilder(length);
+
+		for (int i = 0; i < length; i++) {
+			int randomIndex = random.nextInt(characters.length());
+			char randomChar = characters.charAt(randomIndex);
+			sb.append(randomChar);
+		}
+		return sb.toString();
+	}
 
 	public WebDriver getDriverInstance() {
 		return this.driver;
@@ -30,6 +51,7 @@ public class BaseTest {
 	public void initBeforeSuite() {
 		deleteAllureReport();
 	}
+
 	@Parameters("browser")
 	@BeforeClass
 	public void beforeClass(String browserName) {
@@ -45,11 +67,22 @@ public class BaseTest {
 
 	}
 
-	@AfterClass (alwaysRun = true)
+	@AfterClass(alwaysRun = true)
 	public void afterClass() {
 		if (driver != null) {
 			driver.quit();
 		}
+	}
+
+	@BeforeMethod
+	public void beforeMethod(Method method) throws Exception {
+		ScreenRecorderUtil.startRecord(method.getName());
+	}
+
+	@AfterMethod
+	public void afterMethod() throws Exception {
+		sleepInMilisecond(500);
+		ScreenRecorderUtil.stopRecord();
 	}
 
 	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
@@ -62,7 +95,9 @@ public class BaseTest {
 				break;
 			case CHROME:
 				WebDriverManager.chromedriver().setup();
-				driver = new ChromeDriver();
+				ChromeOptions options2 = new ChromeOptions();
+				options2.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
+				driver = new ChromeDriver(options2);
 				break;
 			case EDGE:
 				WebDriverManager.edgedriver().arch64().setup();
@@ -99,32 +134,11 @@ public class BaseTest {
 		return driver;
 	}
 
-
 	protected int randomNumber() {
 		Random rand = new Random();
 		return rand.nextInt(9999);
 
 	}
-
-	public static String randomString(int maxLength) {
-		if (maxLength <= 0) {
-			throw new IllegalArgumentException("Max length must be greater than 0.");
-		}
-
-		String characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-		Random random = new Random();
-
-		int length = random.nextInt(maxLength) + 1;
-		StringBuilder sb = new StringBuilder(length);
-
-		for (int i = 0; i < length; i++) {
-			int randomIndex = random.nextInt(characters.length());
-			char randomChar = characters.charAt(randomIndex);
-			sb.append(randomChar);
-		}
-		return sb.toString();
-	}
-
 
 	public void deleteAllureReport() {
 		try {
@@ -140,4 +154,14 @@ public class BaseTest {
 			Log.error(e.getMessage());
 		}
 	}
+
+	public void sleepInMilisecond(long miliSecond) {
+		try {
+			Thread.sleep(miliSecond);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+
+
 }

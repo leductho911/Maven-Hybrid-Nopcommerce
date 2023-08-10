@@ -3,6 +3,8 @@ package utils;
 import java.util.Locale;
 
 import com.github.javafaker.Faker;
+import java.util.Random;
+
 
 public class DataFaker {
 	private Locale locale = new Locale("en");
@@ -45,5 +47,20 @@ public class DataFaker {
 	}
 
 
+	public String getAddress() {
+		return faker.address().fullAddress();
+	}
 
+	public String getZip() {
+		return faker.address().zipCode();
+	}
+
+
+	public String getGender() {
+		return new Random().nextInt(2) == 0 ? "Male" : "Female";
+	}
+
+	public String getCountry() {
+		return faker.country().name();
+	}
 }

@@ -8,11 +8,11 @@
     </listeners>
 
 
-    <test name="Run on chrome">
+    <test name="Run on chrome" preserve-order="true">
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="commonTest.LoginSuccess"/>
-            <class name="user.MyAccount"/>
+            <class name="commonTest.RegisterAndLogin"/>
+            <class name="user.Order"/>
         </classes>
     </test>
 

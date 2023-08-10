@@ -34,8 +34,9 @@ public class Register extends BaseTest {
 	@Test
 	public void Register_01_RegisterWithEmptyData() {
 		homePage = PageGeneratorManager.getHomePage(driver);
-		registerPage = homePage.clickToRegisterLink();
-		registerPage.clickToRegisterButton();
+		homePage.clickToLinkAtHeader("Register");
+		registerPage = PageGeneratorManager.getRegisterPage(driver);
+		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getErrorMessageAtFirstnameTextbox(), "First name is required.");
 		assertEquals(registerPage.getErrorMessageAtLastnameTextbox(), "Last name is required.");
 		assertEquals(registerPage.getErrorMessageAtEmailTextbox(), "Email is required.");
@@ -44,61 +45,61 @@ public class Register extends BaseTest {
 	}
 	@Test(dataProviderClass = DataUtil.class, dataProvider = "invalidUserDataProvider")
 	public void Register_02_RegisterWithInvalidEmail(String data) {
-			String[] dataInfo = data.split(",");
-			registerPage.clickToRegisterLink();
-			registerPage.inputToEmailTextbox(dataInfo[2]);
-			registerPage.clickToRegisterButton();
-			assertEquals(registerPage.getErrorMessageAtEmailTextbox(), "Wrong email");
+		String[] dataInfo = data.split(",");
+		registerPage.clickToLinkAtHeader("Register");
+		registerPage.inputToTextboxByLabel("Email", dataInfo[2]);
+		registerPage.clickToButton("Register");
+		assertEquals(registerPage.getErrorMessageAtEmailTextbox(), "Wrong email");
 	}
 	@Description("Register to system")
 	@Severity(SeverityLevel.CRITICAL)
 	@Test
 	public void Register_03_RegisterSuccess() {
-		registerPage.clickToRegisterLink();
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailTextbox(email);
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(password);
-		registerPage.clickToRegisterButton();
+		registerPage.clickToLinkAtHeader("Register");
+		registerPage.inputToTextboxByLabel("First name", firstName);
+		registerPage.inputToTextboxByLabel("Last name", lastName);
+		registerPage.inputToTextboxByLabel("Email", email);
+		registerPage.inputToTextboxByLabel("Password", password);
+		registerPage.inputToTextboxByLabel("Confirm password", password);
+		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getRegisterSuccessMessage(), "Your registration completed");
 
 	}
 
 	@Test
 	public void Register_04_RegisterFailExistingAccount() {
-		registerPage.clickToRegisterLink();
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailTextbox(email);
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(password);
-		registerPage.clickToRegisterButton();
+		registerPage.clickToLinkAtHeader("Register");
+		registerPage.inputToTextboxByLabel("First name", firstName);
+		registerPage.inputToTextboxByLabel("Last name", lastName);
+		registerPage.inputToTextboxByLabel("Email", email);
+		registerPage.inputToTextboxByLabel("Password", password);
+		registerPage.inputToTextboxByLabel("Confirm password", password);
+		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getRegisterFailMessage(), "The specified email already exists");
 	}
 
 	@Test
 	public void Register_05_RegisterWithPasswordLess6Char() {
 		String randomString = randomString(5);
-		registerPage.clickToRegisterLink();
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailTextbox(email);
-		registerPage.inputToPasswordTextbox(randomString);
-		registerPage.inputToConfirmPasswordTextbox(randomString);
-		registerPage.clickToRegisterButton();
+		registerPage.clickToLinkAtHeader("Register");
+		registerPage.inputToTextboxByLabel("First name", firstName);
+		registerPage.inputToTextboxByLabel("Last name", lastName);
+		registerPage.inputToTextboxByLabel("Email", email);
+		registerPage.inputToTextboxByLabel("Password", randomString);
+		registerPage.inputToTextboxByLabel("Confirm password", randomString);
+		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getErrorMessageAtPasswordTextbox(), "Password must meet the following rules:\n" + "must have at least 6 characters");
 	}
 
 	@Test
 	public void Register_06_RegisterWithUnmatchedConfirmPassword() {
-		registerPage.clickToRegisterLink();
-		registerPage.inputToFirstnameTextbox(firstName);
-		registerPage.inputToLastnameTextbox(lastName);
-		registerPage.inputToEmailTextbox(email);
-		registerPage.inputToPasswordTextbox(password);
-		registerPage.inputToConfirmPasswordTextbox(confirmPassword);
-		registerPage.clickToRegisterButton();
+		registerPage.clickToLinkAtHeader("Register");
+		registerPage.inputToTextboxByLabel("First name", firstName);
+		registerPage.inputToTextboxByLabel("Last name", lastName);
+		registerPage.inputToTextboxByLabel("Email", email);
+		registerPage.inputToTextboxByLabel("Password", password);
+		registerPage.inputToTextboxByLabel("Confirm password", password);
+		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), "The password and confirmation password do not match.");
 	}
 

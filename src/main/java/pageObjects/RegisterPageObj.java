@@ -16,43 +16,6 @@ public class RegisterPageObj extends BasePage {
 	}
 
 
-	@Step("Click to Register button")
-	public void clickToRegisterButton() {
-		waitForElementClickable(RegisterPageUI.REGISTER_BUTTON);
-		clickToElement(RegisterPageUI.REGISTER_BUTTON);
-	}
-
-
-
-	@Step("Input to Email Textbox: {0}")
-	public void inputToEmailTextbox(String email) {
-		waitForElementClickable(RegisterPageUI.EMAIL_TEXTBOX);
-		sendKeysToElement(RegisterPageUI.EMAIL_TEXTBOX, email);
-	}
-
-	@Step("Input to Firstname Textbox: {0}")
-	public void inputToFirstnameTextbox(String firstName) {
-		waitForElementClickable(RegisterPageUI.FIRSTNAME_TEXTBOX);
-		sendKeysToElement(RegisterPageUI.FIRSTNAME_TEXTBOX, firstName);
-	}
-
-	@Step("Input to Lastname Textbox: {0}")
-	public void inputToLastnameTextbox(String lastName){
-		waitForElementClickable(RegisterPageUI.LASTNAME_TEXTBOX);
-		sendKeysToElement(RegisterPageUI.LASTNAME_TEXTBOX,lastName);
-	}
-
-	@Step("Input to Password Textbox: {0}")
-	public void inputToPasswordTextbox(String password){
-		waitForElementClickable(RegisterPageUI.PASSWORD_TEXTBOX);
-		sendKeysToElement(RegisterPageUI.PASSWORD_TEXTBOX,password);
-	}
-
-	@Step("Input to Confirm Password Textbox: {0}")
-	public void inputToConfirmPasswordTextbox(String password){
-		waitForElementClickable(RegisterPageUI.CONFIRMPASSWORD_TEXTBOX);
-		sendKeysToElement(RegisterPageUI.CONFIRMPASSWORD_TEXTBOX,password);
-	}
 
 	@Step("Verify Email error message")
 	public String getErrorMessageAtEmailTextbox() {

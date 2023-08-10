@@ -3,6 +3,7 @@ package pageObjects;
 import commons.BasePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
+import pageUIs.BasePageUI;
 import pageUIs.CustomerInfoPageUI;
 
 public class CustomerInfoPageObj extends BasePage {
@@ -17,17 +18,7 @@ public class CustomerInfoPageObj extends BasePage {
 		waitForElementClickable(CustomerInfoPageUI.GENDER_RADIO_BUTTON, gender);
 		checkToDefaultCheckboxOrRadio(CustomerInfoPageUI.GENDER_RADIO_BUTTON, gender);
 	}
-	@Step("Input to Firstname textbox: {0}")
-	public void inputToFirstnameTextbox(String firstName) {
-		waitForElementClickable(CustomerInfoPageUI.FIRSTNAME_TEXTBOX);
-		sendKeysToElement(CustomerInfoPageUI.FIRSTNAME_TEXTBOX, firstName);
 
-	}
-	@Step("Input to Lastname textbox: {0}")
-	public void inputToLastnameTextbox(String lastName) {
-		waitForElementClickable(CustomerInfoPageUI.LASTNAME_TEXTBOX);
-		sendKeysToElement(CustomerInfoPageUI.LASTNAME_TEXTBOX, lastName);
-	}
 	@Step("Select day of birth: {0}")
 	public void selectDayofbirth(String day) {
 		waitForElementClickable(CustomerInfoPageUI.DATE_DROPDOWN);
@@ -43,24 +34,47 @@ public class CustomerInfoPageObj extends BasePage {
 		waitForElementClickable(CustomerInfoPageUI.YEAR_DROPDOWN);
 		selectItemInDefaultDropdown(CustomerInfoPageUI.YEAR_DROPDOWN, year);
 	}
-	@Step("Input to Email textbox: {0}")
-	public void inputToEmailTextbox(String email) {
-		waitForElementClickable(CustomerInfoPageUI.EMAIL_TEXTBOX);
-		sendKeysToElement(CustomerInfoPageUI.EMAIL_TEXTBOX, email);
+
+
+	@Step("Verify Gender is {0}")
+	public boolean isGenderSelected(String gender) {
+		waitForElementVisible(CustomerInfoPageUI.GENDER_RADIO_BUTTON, gender);
+		return isElementSelected(CustomerInfoPageUI.GENDER_RADIO_BUTTON, gender);
 	}
-	@Step("Input to Company name textbox: {0}")
-	public void inputToCompanynameTextbox(String companyName) {
-		waitForElementClickable(CustomerInfoPageUI.COMPANY_NAME_TEXTBOX);
-		sendKeysToElement(CustomerInfoPageUI.COMPANY_NAME_TEXTBOX, companyName);
+	@Step("Verify Firstname value")
+	public String getFirstnameTextboxValue() {
+		waitForElementVisible(CustomerInfoPageUI.FIRSTNAME_TEXTBOX);
+		return getElementAttribute("value", CustomerInfoPageUI.FIRSTNAME_TEXTBOX);
 	}
-	@Step("Click to Save button")
-	public void clickToSaveButton() {
-		waitForElementClickable(CustomerInfoPageUI.SAVE_BUTTON);
-		clickToElement(CustomerInfoPageUI.SAVE_BUTTON);
+	@Step("Verify Lastname value")
+	public String getLastnameTextboxValue() {
+		waitForElementVisible(CustomerInfoPageUI.LASTNAME_TEXTBOX);
+		return getElementAttribute("value", CustomerInfoPageUI.LASTNAME_TEXTBOX);
 	}
-	@Step("Verify Updated success message appear")
-	public String getUpdatedSuccessMessage() {
-		waitForElementVisible(CustomerInfoPageUI.UPDATED_SUCCESS_MESSAGE);
-		return getElementText(CustomerInfoPageUI.UPDATED_SUCCESS_MESSAGE);
+	@Step("Verify Day of birth value")
+	public String getDayOfBirth() {
+		waitForElementVisible(CustomerInfoPageUI.DATE_DROPDOWN);
+		return getSelectedItemDefaultDropdown(CustomerInfoPageUI.DATE_DROPDOWN);
 	}
+	@Step("Verify Month of birth value")
+	public String getMonthOfBirth() {
+		waitForElementVisible(CustomerInfoPageUI.MONTH_DROPDOWN);
+		return getSelectedItemDefaultDropdown(CustomerInfoPageUI.MONTH_DROPDOWN);
+	}
+	@Step("Verify Year of birth value")
+	public String getYearOfBirth() {
+		waitForElementVisible(CustomerInfoPageUI.YEAR_DROPDOWN);
+		return getSelectedItemDefaultDropdown(CustomerInfoPageUI.YEAR_DROPDOWN);
+	}
+	@Step("Verify Email value")
+	public String getEmail() {
+		waitForElementVisible(CustomerInfoPageUI.EMAIL_TEXTBOX);
+		return getElementAttribute("value",CustomerInfoPageUI.EMAIL_TEXTBOX);
+	}
+	@Step("Verify Company name value")
+	public String getCompanyName() {
+		waitForElementVisible(CustomerInfoPageUI.COMPANY_NAME_TEXTBOX);
+		return getElementAttribute("value",CustomerInfoPageUI.COMPANY_NAME_TEXTBOX);
+	}
+
 }

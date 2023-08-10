@@ -1,7 +1,6 @@
 package pageUIs;
 
 public class CustomerInfoPageUI {
-	public static final String UPDATED_SUCCESS_MESSAGE = "css=.bar-notification.success .content";
 	public static final String SAVE_BUTTON = "css=#save-info-button";
 	public static final String COMPANY_NAME_TEXTBOX = "css=#Company";
 	public static final String EMAIL_TEXTBOX = "css=#Email";

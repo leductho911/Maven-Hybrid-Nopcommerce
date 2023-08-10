@@ -3,13 +3,12 @@ package pageObjects;
 import commons.BasePage;
 import org.openqa.selenium.WebDriver;
 
-public class HomePageObj extends BasePage {
+public class OrdersPageObj extends BasePage {
 	private WebDriver driver;
 
-	public HomePageObj(WebDriver driver) {
+	public OrdersPageObj(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
 	}
-
 
 }
