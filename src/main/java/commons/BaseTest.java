@@ -10,12 +10,14 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.*;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import reportConfig.ScreenRecorderUtil;
 import utils.Environment;
 import utils.Log;
 
-import java.io.File;
 import java.lang.reflect.Method;
 import java.time.Duration;
 import java.util.Random;
@@ -47,10 +49,6 @@ public class BaseTest {
 		return this.driver;
 	}
 
-	@BeforeSuite
-	public void initBeforeSuite() {
-		deleteAllureReport();
-	}
 
 	@BeforeClass
 	public void beforeClass() {
@@ -146,20 +144,6 @@ public class BaseTest {
 
 	}
 
-	public void deleteAllureReport() {
-		try {
-			String pathFolderDownload = GlobalConstants.PROJECT_PATH + "/allure-results";
-			File file = new File(pathFolderDownload);
-			File[] listOfFiles = file.listFiles();
-			for (int i = 0; i < listOfFiles.length; i++) {
-				if (listOfFiles[i].isFile()) {
-					new File(listOfFiles[i].toString()).delete();
-				}
-			}
-		} catch (Exception e) {
-			Log.error(e.getMessage());
-		}
-	}
 
 	public void sleepInMilisecond(long miliSecond) {
 		try {
