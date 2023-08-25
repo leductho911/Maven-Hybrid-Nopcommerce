@@ -20,48 +20,48 @@ public class Login extends BaseTest {
 	private LoginPageObj loginPage;
 
 	@Test
-	public void  Login_01_LoginWithEmptyData(){
+	public void Login_01_LoginWithEmptyData() {
 		homePage = PageGeneratorManager.getHomePage(driver);
 		homePage.clickToLinkAtHeader("Log in");
 		loginPage = PageGeneratorManager.getLoginPage(driver);
-		loginPage.clickToButton("Login");
+		loginPage.clickToButton("Log in");
 		assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Please enter your email");
 	}
 
-	@Test (dataProviderClass = DataUtil.class, dataProvider = "invalidUserDataProvider")
-	public void  Login_02_LoginWithInvalidEmail(String data){
+	@Test(dataProviderClass = DataUtil.class, dataProvider = "invalidUserDataProvider")
+	public void Login_02_LoginWithInvalidEmail(String data) {
 		String[] dataInfo = data.split(",");
 		loginPage.clickToLinkAtHeader("Log in");
 		loginPage.inputToTextboxByLabel("Email", dataInfo[2]);
-		loginPage.clickToButton("Login");
+		loginPage.clickToButton("Log in");
 		assertEquals(loginPage.getErrorMessageAtEmailTextbox(), "Wrong email");
 	}
 
 	@Test
-	public void  Login_03_LoginWithUnregisteredEmail(){
+	public void Login_03_LoginWithUnregisteredEmail() {
 		loginPage.clickToLinkAtHeader("Log in");
 		loginPage.inputToTextboxByLabel("Email", DataFaker.getDataFaker().getEmail());
 		loginPage.inputToTextboxByLabel("Password", DataFaker.getDataFaker().getPassword());
-		loginPage.clickToButton("Login");
+		loginPage.clickToButton("Log in");
 		assertEquals(loginPage.getErrorMessageAtLoginPage(), "Login was unsuccessful. Please correct the errors and try again.\n" + "No customer account found");
 
 	}
 
 	@Test
-	public void  Login_04_LoginWithRegisteredEmailEmptyPassword(){
+	public void Login_04_LoginWithRegisteredEmailEmptyPassword() {
 		loginPage.clickToLinkAtHeader("Log in");
 		loginPage.inputToTextboxByLabel("Email", RegisterOnly.email);
-		loginPage.clickToButton("Login");
+		loginPage.clickToButton("Log in");
 		assertEquals(loginPage.getErrorMessageAtLoginPage(), "Login was unsuccessful. Please correct the errors and try again.\n" + "The credentials provided are incorrect");
 
 	}
 
 	@Test
-	public void  Login_05_LoginWithRegisteredEmailWrongPassword(){
+	public void Login_05_LoginWithRegisteredEmailWrongPassword() {
 		loginPage.clickToLinkAtHeader("Log in");
 		loginPage.inputToTextboxByLabel("Email", RegisterOnly.email);
 		loginPage.inputToTextboxByLabel("Password", DataFaker.getDataFaker().getPassword());
-		loginPage.clickToButton("Login");
+		loginPage.clickToButton("Log in");
 		assertEquals(loginPage.getErrorMessageAtLoginPage(), "Login was unsuccessful. Please correct the errors and try again.\n" + "The credentials provided are incorrect");
 
 	}
@@ -69,11 +69,11 @@ public class Login extends BaseTest {
 	@Description("Login to system")
 	@Severity(SeverityLevel.CRITICAL)
 	@Test
-	public void  Login_06_LoginSuccess(){
+	public void Login_06_LoginSuccess() {
 		loginPage.clickToLinkAtHeader("Log in");
 		loginPage.inputToTextboxByLabel("Email", RegisterOnly.email);
 		loginPage.inputToTextboxByLabel("Password", RegisterOnly.password);
-		loginPage.clickToButton("Login");
+		loginPage.clickToButton("Log in");
 		assertTrue(loginPage.isHomepageDisplayed());
 	}
 

@@ -3,7 +3,7 @@ package commonTest;
 import commons.BaseTest;
 import commons.PageGeneratorManager;
 import org.aeonbits.owner.ConfigFactory;
-import org.testng.annotations.Parameters;
+import org.testng.annotations.BeforeTest;
 import pageObjects.HomePageObj;
 import pageObjects.RegisterPageObj;
 import utils.DataFaker;
@@ -12,15 +12,14 @@ import utils.Environment;
 import static org.testng.Assert.assertEquals;
 
 public class RegisterOnly extends BaseTest {
+	public static String email, password;
 	private HomePageObj homePage;
 	private RegisterPageObj registerPage;
-	public static String email, password;
 	private String firstName, lastName;
 	private DataFaker dataFaker;
 
-	//@BeforeTest
-	@Parameters("browser")
-	public void Register_User(String browserName){
+	@BeforeTest
+	public void Register_User() {
 		String environmentName = System.getProperty("environment");
 		if (environmentName != null) {
 			ConfigFactory.setProperty("env", environmentName);
@@ -28,8 +27,13 @@ public class RegisterOnly extends BaseTest {
 			throw new IllegalStateException("'environment' system property is not set.");
 		}
 
+		String browser = System.getProperty("browser");
+		if (browser == null) {
+			browser = "chrome";
+		}
+
 		Environment environment = ConfigFactory.create(Environment.class);
-		driver = getBrowserDriver(browserName, environment.appUrl());
+		driver = getBrowserDriver(browser, environment.appUrl());
 
 		dataFaker = DataFaker.getDataFaker();
 		firstName = dataFaker.getFirstName();
@@ -51,7 +55,6 @@ public class RegisterOnly extends BaseTest {
 
 		driver.quit();
 	}
-
 
 
 }

@@ -36,4 +36,6 @@ public class BasePageUI {
 
 	public static final String ORDER_NUMBER = "xpath=//strong[contains(text(),'Order Number: ') or contains(text(),'Order number: ')]";
 
+	public static final String ELEMENT_BY_ID = "xpath=//*[@id='%s']";
+	public static final String LOADING_ICON_AFTER_CLICK_BUTTON = "xpath=//div[@class='ajax-loading-block-window']";
 }

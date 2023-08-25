@@ -6,4 +6,5 @@ public class ProductDetailPageUI {
 	public static final String PROCESSOR_SELECT = "css=#product_attribute_1";
 	public static final String RAM_SELECT = "css=#product_attribute_2";
 	public static final String PRODUCT_PRICE = "css=.product-price #price-value-1";
+	public static final String PRODUCT_NAME = "css=.product-name";
 }

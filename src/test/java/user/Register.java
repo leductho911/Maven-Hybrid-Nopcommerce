@@ -43,6 +43,7 @@ public class Register extends BaseTest {
 		assertEquals(registerPage.getErrorMessageAtPasswordTextbox(), "Password is required.");
 		assertEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), "Password is required.");
 	}
+
 	@Test(dataProviderClass = DataUtil.class, dataProvider = "invalidUserDataProvider")
 	public void Register_02_RegisterWithInvalidEmail(String data) {
 		String[] dataInfo = data.split(",");
@@ -51,6 +52,7 @@ public class Register extends BaseTest {
 		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getErrorMessageAtEmailTextbox(), "Wrong email");
 	}
+
 	@Description("Register to system")
 	@Severity(SeverityLevel.CRITICAL)
 	@Test
@@ -98,7 +100,7 @@ public class Register extends BaseTest {
 		registerPage.inputToTextboxByLabel("Last name", lastName);
 		registerPage.inputToTextboxByLabel("Email", email);
 		registerPage.inputToTextboxByLabel("Password", password);
-		registerPage.inputToTextboxByLabel("Confirm password", password);
+		registerPage.inputToTextboxByLabel("Confirm password", confirmPassword);
 		registerPage.clickToButton("Register");
 		assertEquals(registerPage.getErrorMessageAtConfirmPasswordTextbox(), "The password and confirmation password do not match.");
 	}

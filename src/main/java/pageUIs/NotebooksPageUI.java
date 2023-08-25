@@ -11,4 +11,5 @@ public class NotebooksPageUI {
 
 
 	public static final String PRODUCT_PRICES = "xpath=//div[@class='item-box']//div[@class='add-info']//span[@class='price actual-price']";
+	public static final String PRODUCT_LOADING_ICON = "css=div.ajax-products-busy";
 }

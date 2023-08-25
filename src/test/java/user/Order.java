@@ -79,6 +79,7 @@ public class Order extends BaseTest {
 		productDetailPage.uncheckToCheckboxByLabel("Acrobat Reader [+$10.00]");
 		productDetailPage.uncheckToCheckboxByLabel("Total Commander [+$5.00]");
 		productDetailPage.inputToTextboxByLabel("Qty", "2");
+		productDetailPage.pressKeyOnKeyboardToAnElement("product_enteredQuantity_1", "TAB");
 		assertEquals(productDetailPage.getProductPrice(), 1320.00);
 		productDetailPage.clickToButton("Update");
 		assertEquals(productDetailPage.getMessageAppearAtNotificationBar(), "The product has been added to your shopping cart");
@@ -114,15 +115,20 @@ public class Order extends BaseTest {
 		String productName = "Apple MacBook Pro 13-inch";
 		shoppingCartPage.inputToTextboxByPlaceholder("Search store", productName);
 		shoppingCartPage.clickToButton("Search");
+
 		searchPage = PageGeneratorManager.getSearchPage(driver);
 		searchPage.clickToButtonOfAProduct(productName, "Add to cart");
+
 		productDetailPage = PageGeneratorManager.getProductDetailPage(driver);
+		assertEquals(productDetailPage.getProductName(), productName);
 		productDetailPage.clickToButton("Add to cart");
 		productDetailPage.clickToLinkAtNotificationBar("shopping cart");
+
 		shoppingCartPage = PageGeneratorManager.getShoppingCartPage(driver);
 		shoppingCartPage.selectGiftWrapping("No");
 		shoppingCartPage.checkToCheckboxByLabel("I agree with the terms of service and I adhere to them unconditionally");
 		shoppingCartPage.clickToButton("Checkout");
+
 		checkoutPage = PageGeneratorManager.getCheckoutPage(driver);
 		checkoutPage.checkToCheckboxByLabel("Ship to the same address");
 		checkoutPage.inputToTextboxByLabel("First name", firstName);
@@ -144,11 +150,13 @@ public class Order extends BaseTest {
 		assertTrue(checkoutPage.getPageBody().contains("Your order has been successfully processed!"));
 		int orderNumber = checkoutPage.getOrderNumber();
 		checkoutPage.clickToLinkAtHeader("My account");
+
 		customerInfoPage = PageGeneratorManager.getCustomerInfoPage(driver);
 		customerInfoPage.openPageByPageName("Orders");
+
 		ordersPage = PageGeneratorManager.getOrdersPage(driver);
 		assertEquals(ordersPage.getOrderNumber(), orderNumber);
-		
+
 	}
 
 

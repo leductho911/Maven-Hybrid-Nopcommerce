@@ -36,8 +36,13 @@ public class ProductDetailPageObj extends BasePage {
 
 	@Step("Verify product's price")
 	public float getProductPrice() {
-		sleepInSecond(1);
 		waitForElementVisible(ProductDetailPageUI.PRODUCT_PRICE);
 		return convertStringToFloat(getElementText(ProductDetailPageUI.PRODUCT_PRICE));
+	}
+
+	@Step("Verify product's name")
+	public String getProductName() {
+		waitForElementVisible(ProductDetailPageUI.PRODUCT_NAME);
+		return getElementText(ProductDetailPageUI.PRODUCT_NAME);
 	}
 }

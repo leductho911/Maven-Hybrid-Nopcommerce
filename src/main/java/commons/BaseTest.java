@@ -52,9 +52,8 @@ public class BaseTest {
 		deleteAllureReport();
 	}
 
-	@Parameters("browser")
 	@BeforeClass
-	public void beforeClass(String browserName) {
+	public void beforeClass() {
 		String environmentName = System.getProperty("environment");
 		if (environmentName != null) {
 			ConfigFactory.setProperty("env", environmentName);
@@ -62,8 +61,15 @@ public class BaseTest {
 			throw new IllegalStateException("'environment' system property is not set.");
 		}
 
+		String browser = System.getProperty("browser");
+		if (browser == null) {
+			browser = "chrome";
+		}
+
+		Log.info("Run on browser: " + browser);
+
 		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowserDriver(browserName, environment.appUrl());
+		driver = getBrowserDriver(browser, environment.appUrl());
 
 	}
 

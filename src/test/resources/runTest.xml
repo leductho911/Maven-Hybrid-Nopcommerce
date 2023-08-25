@@ -8,11 +8,11 @@
     </listeners>
 
 
-    <test name="Run on chrome" preserve-order="true">
-        <parameter name="browser" value="chrome"/>
+    <test name="Regression Test" preserve-order="true">
         <classes>
             <class name="commonTest.RegisterAndLogin"/>
-            <class name="user.Order"/>
+            <class name="user.Notebooks"/>
+
         </classes>
     </test>
 

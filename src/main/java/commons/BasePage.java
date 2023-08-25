@@ -8,10 +8,12 @@ import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
 import pageObjects.HomePageObj;
 import pageObjects.ProductDetailPageObj;
 import pageUIs.BasePageUI;
 import pageUIs.HomePageUI;
+import utils.Log;
 
 import java.time.Duration;
 import java.util.*;
@@ -46,12 +48,10 @@ public class BasePage {
 		for (Cookie cookie : cookies) {
 			driver.manage().addCookie(cookie);
 		}
-		sleepInSecond(1);
 	}
 
 	public void deleteAllCookies() {
 		driver.manage().deleteAllCookies();
-		sleepInSecond(1);
 	}
 
 	protected String getPageTitle() {
@@ -77,13 +77,8 @@ public class BasePage {
 
 	public void refreshCurrentPage() {
 		driver.navigate().refresh();
-		sleepInSecond(1);
 	}
 
-	public void waitForAlertPresence(String locatorType) {
-		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout), Duration.ofMillis(500));
-		explicitWait.until(ExpectedConditions.alertIsPresent());
-	}
 
 	protected Alert waitAlertPresence() {
 		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout), Duration.ofMillis(500));
@@ -432,6 +427,33 @@ public class BasePage {
 		}
 	}
 
+	protected void waitForPageLoaded() {
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout), Duration.ofMillis(500));
+		JavascriptExecutor js = (JavascriptExecutor) driver;
+
+		// wait for Javascript to loaded
+		ExpectedCondition<Boolean> jsLoad = driver -> {
+			assert driver != null;
+			return ((JavascriptExecutor) driver).executeScript("return document.readyState").toString().equals("complete");
+		};
+
+		//Get JS is Ready
+		boolean jsReady = js.executeScript("return document.readyState").toString().equals("complete");
+
+		//Wait Javascript until it is Ready!
+		if (!jsReady) {
+			Log.info("Javascript in NOT Ready!");
+			//Wait for Javascript to load
+			try {
+				wait.until(jsLoad);
+			} catch (Throwable error) {
+				error.printStackTrace();
+				Assert.fail("Timeout waiting for page load (Javascript). (" + longTimeout + "s)");
+			}
+		}
+	}
+
+
 	protected void waitForElementVisible(String locatorType) {
 		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout), Duration.ofMillis(500));
 		explicitWait.until(ExpectedConditions.visibilityOfElementLocated(getByLocator(locatorType)));
@@ -467,6 +489,17 @@ public class BasePage {
 		explicitWait.until(ExpectedConditions
 				.invisibilityOfElementLocated(getByLocator(locatorType)));
 		overrideImplicitTimeout(longTimeout);
+	}
+
+	public void waitForElementDisappear(WebElement element) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout), Duration.ofMillis(500));
+		explicitWait.until(ExpectedConditions.stalenessOf(element));
+	}
+
+
+	protected void waitForElementInvisible(String locatorType) {
+		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout));
+		explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(getByLocator(locatorType)));
 	}
 
 	public void waitForElementInvisible(String locatorType, String... dynamicValues) {
@@ -594,7 +627,6 @@ public class BasePage {
 	public void clickToButton(String button) {
 		waitForElementClickable(BasePageUI.BUTTON, button);
 		clickToElement(BasePageUI.BUTTON, button);
-		sleepInSecond(1);
 	}
 
 	@Step("Click to '{0}' link at Header")
@@ -638,6 +670,7 @@ public class BasePage {
 	public void selectItemInDropdownByLabel(String label, String value) {
 		waitForElementClickable(BasePageUI.LABEL_DROPDOWN, label);
 		selectItemInDefaultDropdown(BasePageUI.LABEL_DROPDOWN, value, label);
+		selectItemInDefaultDropdown(BasePageUI.LABEL_DROPDOWN, value, label);
 	}
 
 	@Step("Verify 'Homepage' is displayed")
@@ -660,9 +693,10 @@ public class BasePage {
 
 	@Step("Click to Close button at Notification bar")
 	public void clickToCloseButtonAtNotificationBar() {
+		WebElement closeButton = getWebElement(BasePageUI.NOTICICATION_BAR_CLOSE_BUTTON);
 		waitForElementClickable(BasePageUI.NOTICICATION_BAR_CLOSE_BUTTON);
 		clickToElement(BasePageUI.NOTICICATION_BAR_CLOSE_BUTTON);
-		sleepInSecond(1);
+		waitForElementDisappear(closeButton);
 	}
 
 	@Step("Click to link '{0}' at Notification bar")
@@ -740,7 +774,7 @@ public class BasePage {
 	public void clickToButtonOfAProduct(String productName, String buttonName) {
 		waitForElementClickable(BasePageUI.PRODUCT_BUTTONS_DYNAMIC, productName, buttonName);
 		clickToElement(BasePageUI.PRODUCT_BUTTONS_DYNAMIC, productName, buttonName);
-		sleepInSecond(1);
+		waitForElementInvisible(BasePageUI.LOADING_ICON_AFTER_CLICK_BUTTON);
 	}
 
 	@Step("Input to textbox {0} with value {1}")
@@ -767,5 +801,9 @@ public class BasePage {
 	}
 
 
+	@Step("Press {1} on keyboard")
+	public void pressKeyOnKeyboardToAnElement(String id, String key) {
+		pressKeyToElement(BasePageUI.ELEMENT_BY_ID, Keys.valueOf(key), id);
+	}
 }
 

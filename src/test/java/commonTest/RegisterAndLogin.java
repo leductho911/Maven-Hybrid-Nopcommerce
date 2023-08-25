@@ -5,7 +5,6 @@ import commons.PageGeneratorManager;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Cookie;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Parameters;
 import pageObjects.HomePageObj;
 import pageObjects.LoginPageObj;
 import pageObjects.RegisterPageObj;
@@ -18,17 +17,15 @@ import static org.testng.Assert.assertEquals;
 import static org.testng.Assert.assertTrue;
 
 public class RegisterAndLogin extends BaseTest {
+	public static Set<Cookie> loginCookies;
+	public static String email, password, firstName, lastName;
 	private HomePageObj homePage;
 	private RegisterPageObj registerPage;
-
 	private LoginPageObj loginPage;
-	public static Set<Cookie> loginCookies;
 	private DataFaker dataFaker;
 
-	public static String email, password, firstName, lastName;
 	@BeforeTest
-	@Parameters("browser")
-	public void Register_And_Login (String browserName){
+	public void Register_And_Login() {
 		String environmentName = System.getProperty("environment");
 		if (environmentName != null) {
 			ConfigFactory.setProperty("env", environmentName);
@@ -36,8 +33,13 @@ public class RegisterAndLogin extends BaseTest {
 			throw new IllegalStateException("'environment' system property is not set.");
 		}
 
+		String browser = System.getProperty("browser");
+		if (browser == null) {
+			browser = "chrome";
+		}
+
 		Environment environment = ConfigFactory.create(Environment.class);
-		driver = getBrowserDriver(browserName, environment.appUrl());
+		driver = getBrowserDriver(browser, environment.appUrl());
 
 		dataFaker = DataFaker.getDataFaker();
 		firstName = dataFaker.getFirstName();
@@ -70,7 +72,6 @@ public class RegisterAndLogin extends BaseTest {
 
 		driver.quit();
 	}
-
 
 
 }

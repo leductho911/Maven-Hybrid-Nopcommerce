@@ -23,36 +23,36 @@ public class NotebooksPageObj extends BasePage {
 
 	@Step("Verify product name is sorted from A to Z")
 	public boolean isProductSortByNameAsc() {
+		waitForElementInvisible(NotebooksPageUI.PRODUCT_LOADING_ICON);
 		waitForElementVisible(NotebooksPageUI.PRODUCT_TITLES);
-		sleepInSecond(1);
 		return isDataSortByNameAsc(NotebooksPageUI.PRODUCT_TITLES);
 	}
 
 	@Step("Verify product name is sorted from Z to A")
 	public boolean isProductSortByNameDesc() {
+		waitForElementInvisible(NotebooksPageUI.PRODUCT_LOADING_ICON);
 		waitForElementVisible(NotebooksPageUI.PRODUCT_TITLES);
-		sleepInSecond(1);
 		return isDataSortByNameDesc(NotebooksPageUI.PRODUCT_TITLES);
 	}
 
 	@Step("Verify product price is sorted: Low to High")
 	public boolean isProductSortByPriceAsc() {
+		waitForElementInvisible(NotebooksPageUI.PRODUCT_LOADING_ICON);
 		waitForElementVisible(NotebooksPageUI.PRODUCT_PRICES);
-		sleepInSecond(1);
 		return isDataFloatSortedAsc(NotebooksPageUI.PRODUCT_PRICES);
 	}
 
 	@Step("Verify product price is sorted: High to Low")
 	public boolean isProductSortByPriceDesc() {
+		waitForElementInvisible(NotebooksPageUI.PRODUCT_LOADING_ICON);
 		waitForElementVisible(NotebooksPageUI.PRODUCT_PRICES);
-		sleepInSecond(1);
 		return isDataFloatSortedDesc(NotebooksPageUI.PRODUCT_PRICES);
 	}
 
 	@Step("Verify number product per page is equal or less than {0}")
-	public boolean verifyMaxProductsOnPage(int maxProductsAllowed) {
-		waitForElementVisible(NotebooksPageUI.PRODUCT_TITLES );
-		sleepInSecond(1);
+	public boolean isMaxProductsOnPage(int maxProductsAllowed) {
+		waitForElementInvisible(NotebooksPageUI.PRODUCT_LOADING_ICON);
+		waitForElementVisible(NotebooksPageUI.PRODUCT_TITLES);
 		return getListWebElement(NotebooksPageUI.PRODUCT_TITLES).size() <= maxProductsAllowed;
 	}
 
