@@ -1,0 +1,1256 @@
+[INFO] 24-07-2023 20:44:43 [main] Log - Starting Suite: Mon Jul 24 20:44:42 ICT 2023
+[INFO] 24-07-2023 20:44:54 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 20:44:54 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 20:44:54 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 20:44:54 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 20:44:54 [main] Log - Finish Suite: Mon Jul 24 20:44:54 ICT 2023
+[INFO] 24-07-2023 20:46:25 [main] Log - Starting Suite: Mon Jul 24 20:46:25 ICT 2023
+[INFO] 24-07-2023 20:46:35 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 20:46:35 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 20:46:35 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 20:46:35 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 20:46:35 [main] Log - Finish Suite: Mon Jul 24 20:46:35 ICT 2023
+[INFO] 24-07-2023 20:48:09 [main] Log - Starting Suite: Mon Jul 24 20:48:08 ICT 2023
+[INFO] 24-07-2023 20:49:01 [main] Log - MyAccount_01_CustomerInfo is failed.
+[INFO] 24-07-2023 20:49:01 [main] Log - MyAccount_01_CustomerInfo is failed.
+[INFO] 24-07-2023 20:49:01 [main] Log - Finish Suite: Mon Jul 24 20:49:01 ICT 2023
+[INFO] 24-07-2023 20:51:43 [main] Log - Starting Suite: Mon Jul 24 20:51:42 ICT 2023
+[INFO] 24-07-2023 20:51:59 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 24-07-2023 20:51:59 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 24-07-2023 20:51:59 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 24-07-2023 20:51:59 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 24-07-2023 20:52:00 [main] Log - Finish Suite: Mon Jul 24 20:52:00 ICT 2023
+[INFO] 24-07-2023 21:03:22 [main] Log - Starting Suite: Mon Jul 24 21:03:21 ICT 2023
+[INFO] 24-07-2023 21:03:28 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 21:03:28 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 21:03:28 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 21:03:28 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 21:03:28 [main] Log - Finish Suite: Mon Jul 24 21:03:28 ICT 2023
+[INFO] 24-07-2023 21:12:47 [main] Log - Starting Suite: Mon Jul 24 21:12:47 ICT 2023
+[INFO] 24-07-2023 21:12:47 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 21:12:47 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 21:12:47 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 21:12:47 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 21:12:47 [main] Log - Finish Suite: Mon Jul 24 21:12:47 ICT 2023
+[INFO] 24-07-2023 21:19:01 [main] Log - Starting Suite: Mon Jul 24 21:19:00 ICT 2023
+[INFO] 24-07-2023 21:19:06 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 21:19:06 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 21:19:06 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 21:19:06 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 21:19:06 [main] Log - Finish Suite: Mon Jul 24 21:19:06 ICT 2023
+[INFO] 24-07-2023 21:21:36 [main] Log - Starting Suite: Mon Jul 24 21:21:35 ICT 2023
+[INFO] 24-07-2023 21:21:40 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 21:21:40 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 21:21:40 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 21:21:40 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 21:21:40 [main] Log - Finish Suite: Mon Jul 24 21:21:40 ICT 2023
+[INFO] 24-07-2023 21:22:40 [main] Log - Starting Suite: Mon Jul 24 21:22:39 ICT 2023
+[INFO] 24-07-2023 21:22:40 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 21:22:40 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 21:22:40 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 21:22:40 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 21:22:40 [main] Log - Finish Suite: Mon Jul 24 21:22:40 ICT 2023
+[INFO] 24-07-2023 21:23:52 [main] Log - Starting Suite: Mon Jul 24 21:23:51 ICT 2023
+[INFO] 24-07-2023 21:23:56 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 21:23:56 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 21:23:56 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 21:23:56 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 21:23:56 [main] Log - Finish Suite: Mon Jul 24 21:23:56 ICT 2023
+[INFO] 24-07-2023 21:32:55 [main] Log - Starting Suite: Mon Jul 24 21:32:54 ICT 2023
+[INFO] 24-07-2023 21:33:08 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 24-07-2023 21:33:08 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 24-07-2023 21:33:08 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 24-07-2023 21:33:08 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 24-07-2023 21:33:08 [main] Log - Finish Suite: Mon Jul 24 21:33:08 ICT 2023
+[INFO] 24-07-2023 21:33:45 [main] Log - Starting Suite: Mon Jul 24 21:33:44 ICT 2023
+[INFO] 24-07-2023 21:34:01 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 24-07-2023 21:34:02 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 24-07-2023 21:34:02 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 24-07-2023 21:34:02 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 24-07-2023 21:34:02 [main] Log - Finish Suite: Mon Jul 24 21:34:02 ICT 2023
+[INFO] 25-07-2023 09:42:58 [main] Log - Starting Suite: Tue Jul 25 09:42:57 ICT 2023
+[INFO] 25-07-2023 09:43:16 [main] Log - MyAccount_01_CustomerInfo is failed.
+[INFO] 25-07-2023 09:43:16 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 25-07-2023 09:43:16 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 25-07-2023 09:43:16 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 25-07-2023 09:43:17 [main] Log - Finish Suite: Tue Jul 25 09:43:17 ICT 2023
+[INFO] 25-07-2023 09:47:07 [main] Log - Starting Suite: Tue Jul 25 09:47:07 ICT 2023
+[INFO] 25-07-2023 09:47:30 [main] Log - MyAccount_01_CustomerInfo is failed.
+[INFO] 25-07-2023 09:47:30 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 25-07-2023 09:47:30 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 25-07-2023 09:47:31 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 25-07-2023 09:47:31 [main] Log - Finish Suite: Tue Jul 25 09:47:31 ICT 2023
+[INFO] 25-07-2023 09:59:45 [main] Log - Starting Suite: Tue Jul 25 09:59:44 ICT 2023
+[INFO] 25-07-2023 10:00:08 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 25-07-2023 10:00:08 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 25-07-2023 10:00:08 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 25-07-2023 10:00:09 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 25-07-2023 10:00:09 [main] Log - Finish Suite: Tue Jul 25 10:00:09 ICT 2023
+[INFO] 25-07-2023 10:11:41 [main] Log - Starting Suite: Tue Jul 25 10:11:41 ICT 2023
+[INFO] 25-07-2023 10:12:02 [main] Log - MyAccount_01_CustomerInfo is failed.
+[INFO] 25-07-2023 10:12:02 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 25-07-2023 10:12:02 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 25-07-2023 10:12:02 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 25-07-2023 10:12:02 [main] Log - Finish Suite: Tue Jul 25 10:12:02 ICT 2023
+[INFO] 26-07-2023 17:36:35 [main] Log - Starting Suite: Wed Jul 26 17:36:34 ICT 2023
+[INFO] 26-07-2023 17:36:52 [main] Log - MyAccount_01_CustomerInfo is failed.
+[INFO] 26-07-2023 17:37:25 [main] Log - MyAccount_02_Addresses is failed.
+[INFO] 26-07-2023 17:37:25 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 26-07-2023 17:37:25 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 26-07-2023 17:37:25 [main] Log - Finish Suite: Wed Jul 26 17:37:25 ICT 2023
+[INFO] 26-07-2023 17:39:59 [main] Log - Starting Suite: Wed Jul 26 17:39:59 ICT 2023
+[INFO] 26-07-2023 17:40:16 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 26-07-2023 17:40:19 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 26-07-2023 17:40:19 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 26-07-2023 17:40:19 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 26-07-2023 17:40:20 [main] Log - Finish Suite: Wed Jul 26 17:40:20 ICT 2023
+[INFO] 26-07-2023 17:57:29 [main] Log - Starting Suite: Wed Jul 26 17:57:29 ICT 2023
+[INFO] 26-07-2023 17:57:46 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 26-07-2023 17:57:50 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 26-07-2023 17:57:50 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 26-07-2023 17:57:50 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 26-07-2023 17:57:50 [main] Log - Finish Suite: Wed Jul 26 17:57:50 ICT 2023
+[INFO] 26-07-2023 17:58:47 [main] Log - Starting Suite: Wed Jul 26 17:58:46 ICT 2023
+[INFO] 26-07-2023 17:59:04 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 26-07-2023 17:59:06 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 26-07-2023 17:59:07 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 26-07-2023 17:59:07 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 26-07-2023 17:59:07 [main] Log - Finish Suite: Wed Jul 26 17:59:07 ICT 2023
+[INFO] 26-07-2023 20:00:39 [main] Log - Starting Suite: Wed Jul 26 20:00:38 ICT 2023
+[INFO] 26-07-2023 20:00:55 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 26-07-2023 20:00:58 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 26-07-2023 20:00:58 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 26-07-2023 20:00:58 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 26-07-2023 20:00:58 [main] Log - Finish Suite: Wed Jul 26 20:00:58 ICT 2023
+[INFO] 27-07-2023 13:11:55 [main] Log - Starting Suite: Thu Jul 27 13:11:54 ICT 2023
+[INFO] 27-07-2023 13:12:10 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:12:14 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:12:16 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 27-07-2023 13:12:46 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:12:47 [main] Log - Finish Suite: Thu Jul 27 13:12:47 ICT 2023
+[INFO] 27-07-2023 13:24:32 [main] Log - Starting Suite: Thu Jul 27 13:24:31 ICT 2023
+[INFO] 27-07-2023 13:24:47 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:24:50 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:24:52 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 27-07-2023 13:25:22 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:25:22 [main] Log - Finish Suite: Thu Jul 27 13:25:22 ICT 2023
+[INFO] 27-07-2023 13:26:59 [main] Log - Starting Suite: Thu Jul 27 13:26:58 ICT 2023
+[INFO] 27-07-2023 13:27:14 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:27:17 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:27:51 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 27-07-2023 13:28:21 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:28:21 [main] Log - Finish Suite: Thu Jul 27 13:28:21 ICT 2023
+[INFO] 27-07-2023 13:30:04 [main] Log - Starting Suite: Thu Jul 27 13:30:04 ICT 2023
+[INFO] 27-07-2023 13:30:19 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:30:22 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:30:26 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 27-07-2023 13:30:56 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:30:56 [main] Log - Finish Suite: Thu Jul 27 13:30:56 ICT 2023
+[INFO] 27-07-2023 13:32:03 [main] Log - Starting Suite: Thu Jul 27 13:32:03 ICT 2023
+[INFO] 27-07-2023 13:32:20 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:32:22 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:32:26 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 27-07-2023 13:32:56 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:32:56 [main] Log - Finish Suite: Thu Jul 27 13:32:56 ICT 2023
+[INFO] 27-07-2023 13:34:13 [main] Log - Starting Suite: Thu Jul 27 13:34:12 ICT 2023
+[INFO] 27-07-2023 13:34:27 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:34:30 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:34:34 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 13:35:05 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:35:05 [main] Log - Finish Suite: Thu Jul 27 13:35:05 ICT 2023
+[INFO] 27-07-2023 13:36:30 [main] Log - Starting Suite: Thu Jul 27 13:36:30 ICT 2023
+[INFO] 27-07-2023 13:36:46 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:36:49 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:36:54 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 13:37:26 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:37:26 [main] Log - Finish Suite: Thu Jul 27 13:37:26 ICT 2023
+[INFO] 27-07-2023 13:38:32 [main] Log - Starting Suite: Thu Jul 27 13:38:31 ICT 2023
+[INFO] 27-07-2023 13:38:48 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:38:51 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:38:55 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 13:38:58 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 13:38:58 [main] Log - Finish Suite: Thu Jul 27 13:38:58 ICT 2023
+[INFO] 27-07-2023 13:39:40 [main] Log - Starting Suite: Thu Jul 27 13:39:39 ICT 2023
+[INFO] 27-07-2023 13:39:54 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:39:57 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:40:01 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 13:40:04 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 27-07-2023 13:40:04 [main] Log - Finish Suite: Thu Jul 27 13:40:04 ICT 2023
+[INFO] 27-07-2023 13:54:30 [main] Log - Starting Suite: Thu Jul 27 13:54:30 ICT 2023
+[INFO] 27-07-2023 13:54:45 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 13:54:47 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 13:54:52 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 13:54:55 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 27-07-2023 13:54:55 [main] Log - Finish Suite: Thu Jul 27 13:54:55 ICT 2023
+[INFO] 27-07-2023 16:30:35 [main] Log - Starting Suite: Thu Jul 27 16:30:34 ICT 2023
+[INFO] 27-07-2023 16:30:49 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 16:31:20 [main] Log - MyAccount_02_Addresses is failed.
+[INFO] 27-07-2023 16:31:25 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 16:31:57 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 16:31:57 [main] Log - Finish Suite: Thu Jul 27 16:31:57 ICT 2023
+[INFO] 27-07-2023 16:33:34 [main] Log - Starting Suite: Thu Jul 27 16:33:33 ICT 2023
+[INFO] 27-07-2023 16:33:48 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 16:33:52 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 16:33:57 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 16:34:29 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 16:34:29 [main] Log - Finish Suite: Thu Jul 27 16:34:29 ICT 2023
+[INFO] 27-07-2023 16:39:15 [main] Log - Starting Suite: Thu Jul 27 16:39:14 ICT 2023
+[INFO] 27-07-2023 16:39:29 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 16:39:32 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 16:39:36 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 16:40:08 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 27-07-2023 16:40:08 [main] Log - Finish Suite: Thu Jul 27 16:40:08 ICT 2023
+[INFO] 27-07-2023 16:40:30 [main] Log - Starting Suite: Thu Jul 27 16:40:29 ICT 2023
+[INFO] 27-07-2023 16:40:43 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 27-07-2023 16:40:46 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 27-07-2023 16:40:50 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 27-07-2023 16:40:53 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 27-07-2023 16:40:54 [main] Log - Finish Suite: Thu Jul 27 16:40:54 ICT 2023
+[INFO] 27-07-2023 17:04:17 [main] Log - Starting Suite: Thu Jul 27 17:04:17 ICT 2023
+[INFO] 27-07-2023 17:04:30 [main] Log - Search_01_EmptyData is failed.
+[INFO] 27-07-2023 17:04:30 [main] Log - Search_02_NotExistData is passed.
+[INFO] 27-07-2023 17:04:30 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 27-07-2023 17:04:30 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 27-07-2023 17:04:30 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 27-07-2023 17:04:30 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 27-07-2023 17:04:30 [main] Log - Finish Suite: Thu Jul 27 17:04:30 ICT 2023
+[INFO] 27-07-2023 17:05:55 [main] Log - Starting Suite: Thu Jul 27 17:05:54 ICT 2023
+[INFO] 27-07-2023 17:06:07 [main] Log - Search_01_EmptyData is failed.
+[INFO] 27-07-2023 17:06:07 [main] Log - Search_02_NotExistData is passed.
+[INFO] 27-07-2023 17:06:07 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 27-07-2023 17:06:08 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 27-07-2023 17:06:08 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 27-07-2023 17:06:08 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 27-07-2023 17:06:08 [main] Log - Finish Suite: Thu Jul 27 17:06:08 ICT 2023
+[INFO] 27-07-2023 17:08:52 [main] Log - Starting Suite: Thu Jul 27 17:08:52 ICT 2023
+[INFO] 27-07-2023 17:09:09 [main] Log - Search_01_EmptyData is failed.
+[INFO] 27-07-2023 17:09:09 [main] Log - Search_02_NotExistData is passed.
+[INFO] 27-07-2023 17:09:09 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 27-07-2023 17:09:09 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 27-07-2023 17:09:09 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 27-07-2023 17:09:09 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 27-07-2023 17:09:10 [main] Log - Finish Suite: Thu Jul 27 17:09:10 ICT 2023
+[INFO] 29-07-2023 08:45:25 [main] Log - Starting Suite: Sat Jul 29 08:45:24 ICT 2023
+[INFO] 29-07-2023 08:46:39 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 08:46:39 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 08:46:39 [main] Log - Finish Suite: Sat Jul 29 08:46:39 ICT 2023
+[INFO] 29-07-2023 08:46:59 [main] Log - Starting Suite: Sat Jul 29 08:46:58 ICT 2023
+[INFO] 29-07-2023 08:48:43 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 08:48:43 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 08:48:43 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 08:48:43 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 08:48:43 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 08:48:43 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 08:48:44 [main] Log - Finish Suite: Sat Jul 29 08:48:44 ICT 2023
+[INFO] 29-07-2023 09:05:00 [main] Log - Starting Suite: Sat Jul 29 09:04:59 ICT 2023
+[INFO] 29-07-2023 09:05:43 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 09:05:43 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 09:05:44 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 09:05:44 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 09:05:44 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 09:05:44 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 09:05:44 [main] Log - Finish Suite: Sat Jul 29 09:05:44 ICT 2023
+[INFO] 29-07-2023 09:06:46 [main] Log - Starting Suite: Sat Jul 29 09:06:45 ICT 2023
+[INFO] 29-07-2023 09:06:59 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 09:06:59 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 09:06:59 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 09:06:59 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 09:06:59 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 09:06:59 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 09:07:00 [main] Log - Finish Suite: Sat Jul 29 09:07:00 ICT 2023
+[INFO] 29-07-2023 09:13:10 [main] Log - Starting Suite: Sat Jul 29 09:13:09 ICT 2023
+[INFO] 29-07-2023 09:13:53 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 09:13:53 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 09:13:53 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 09:13:53 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 09:13:53 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 09:13:54 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 09:13:54 [main] Log - Finish Suite: Sat Jul 29 09:13:54 ICT 2023
+[INFO] 29-07-2023 09:15:28 [main] Log - Starting Suite: Sat Jul 29 09:15:27 ICT 2023
+[INFO] 29-07-2023 09:16:32 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 09:16:32 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 09:16:32 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 09:16:32 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 09:16:32 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 09:16:33 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 09:16:33 [main] Log - Finish Suite: Sat Jul 29 09:16:33 ICT 2023
+[INFO] 29-07-2023 09:26:12 [main] Log - Starting Suite: Sat Jul 29 09:26:12 ICT 2023
+[INFO] 29-07-2023 09:26:55 [main] Log - Search_01_EmptyData is failed.
+[INFO] 29-07-2023 09:26:56 [main] Log - Search_02_NotExistData is failed.
+[INFO] 29-07-2023 09:26:57 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 09:26:57 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 09:26:57 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 09:26:57 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 09:26:57 [main] Log - Finish Suite: Sat Jul 29 09:26:57 ICT 2023
+[INFO] 29-07-2023 09:28:11 [main] Log - Starting Suite: Sat Jul 29 09:28:10 ICT 2023
+[INFO] 29-07-2023 09:28:23 [main] Log - Search_01_EmptyData is passed.
+[INFO] 29-07-2023 09:28:24 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 09:28:25 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 09:28:25 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 09:28:25 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 09:28:25 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 09:28:25 [main] Log - Finish Suite: Sat Jul 29 09:28:25 ICT 2023
+[INFO] 29-07-2023 10:07:31 [main] Log - Starting Suite: Sat Jul 29 10:07:31 ICT 2023
+[INFO] 29-07-2023 10:07:47 [main] Log - Search_01_EmptyData is passed.
+[INFO] 29-07-2023 10:07:48 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 10:07:49 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 10:07:49 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 10:07:49 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 10:07:49 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 10:07:49 [main] Log - Finish Suite: Sat Jul 29 10:07:49 ICT 2023
+[INFO] 29-07-2023 10:34:39 [main] Log - Starting Suite: Sat Jul 29 10:34:38 ICT 2023
+[INFO] 29-07-2023 10:34:51 [main] Log - Search_01_EmptyData is passed.
+[INFO] 29-07-2023 10:34:52 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 10:34:53 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 10:34:54 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 10:34:55 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 10:34:56 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 10:34:56 [main] Log - Finish Suite: Sat Jul 29 10:34:56 ICT 2023
+[INFO] 29-07-2023 14:16:05 [main] Log - Starting Suite: Sat Jul 29 14:16:04 ICT 2023
+[INFO] 29-07-2023 14:16:19 [main] Log - Search_01_EmptyData is passed.
+[INFO] 29-07-2023 14:16:20 [main] Log - Search_02_NotExistData is passed.
+[INFO] 29-07-2023 14:16:21 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 29-07-2023 14:16:22 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 29-07-2023 14:16:23 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 29-07-2023 14:16:24 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 29-07-2023 14:16:26 [main] Log - Search_07_Advanced_Incorrect_Manufacturer is passed.
+[INFO] 29-07-2023 14:16:27 [main] Log - Search_08_Advanced_Correct_Manufacturer is passed.
+[INFO] 29-07-2023 14:16:27 [main] Log - Finish Suite: Sat Jul 29 14:16:27 ICT 2023
+[INFO] 29-07-2023 14:38:19 [main] Log - Starting Suite: Sat Jul 29 14:38:18 ICT 2023
+[INFO] 29-07-2023 14:38:25 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 29-07-2023 14:38:25 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 29-07-2023 14:38:25 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 29-07-2023 14:38:26 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 29-07-2023 14:38:26 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 29-07-2023 14:38:26 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 29-07-2023 14:38:26 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 29-07-2023 14:38:27 [main] Log - Finish Suite: Sat Jul 29 14:38:27 ICT 2023
+[INFO] 29-07-2023 15:22:22 [main] Log - Starting Suite: Sat Jul 29 15:22:21 ICT 2023
+[INFO] 29-07-2023 15:22:28 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 29-07-2023 15:22:28 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 29-07-2023 15:22:28 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 29-07-2023 15:22:28 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 29-07-2023 15:22:28 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 29-07-2023 15:22:29 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 29-07-2023 15:22:29 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 29-07-2023 15:22:29 [main] Log - Finish Suite: Sat Jul 29 15:22:29 ICT 2023
+[INFO] 29-07-2023 15:44:47 [main] Log - Starting Suite: Sat Jul 29 15:44:47 ICT 2023
+[INFO] 29-07-2023 15:44:53 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 29-07-2023 15:44:53 [main] Log - Notebooks_02_SortWithName_ZtoA is failed.
+[INFO] 29-07-2023 15:44:53 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is failed.
+[INFO] 29-07-2023 15:44:54 [main] Log - Notebooks_04_SortWithPrice_HightoLow is failed.
+[INFO] 29-07-2023 15:44:54 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 29-07-2023 15:44:54 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 29-07-2023 15:44:54 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 29-07-2023 15:44:55 [main] Log - Finish Suite: Sat Jul 29 15:44:55 ICT 2023
+[INFO] 29-07-2023 15:50:03 [main] Log - Starting Suite: Sat Jul 29 15:50:02 ICT 2023
+[INFO] 29-07-2023 15:50:08 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 29-07-2023 15:50:09 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 29-07-2023 15:50:10 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is failed.
+[INFO] 29-07-2023 15:50:10 [main] Log - Notebooks_04_SortWithPrice_HightoLow is failed.
+[INFO] 29-07-2023 15:50:10 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 29-07-2023 15:50:10 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 29-07-2023 15:50:11 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 29-07-2023 15:50:12 [main] Log - Finish Suite: Sat Jul 29 15:50:12 ICT 2023
+[INFO] 29-07-2023 15:51:15 [main] Log - Starting Suite: Sat Jul 29 15:51:14 ICT 2023
+[INFO] 29-07-2023 15:51:21 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 29-07-2023 15:51:23 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 29-07-2023 15:51:24 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 29-07-2023 15:51:26 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 29-07-2023 15:51:26 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 29-07-2023 15:51:26 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 29-07-2023 15:51:26 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 29-07-2023 15:51:26 [main] Log - Finish Suite: Sat Jul 29 15:51:26 ICT 2023
+[INFO] 29-07-2023 16:12:36 [main] Log - Starting Suite: Sat Jul 29 16:12:36 ICT 2023
+[INFO] 29-07-2023 16:12:43 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 29-07-2023 16:12:44 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 29-07-2023 16:12:45 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 29-07-2023 16:12:47 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 29-07-2023 16:12:48 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 29-07-2023 16:12:49 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 29-07-2023 16:12:51 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 29-07-2023 16:12:51 [main] Log - Finish Suite: Sat Jul 29 16:12:51 ICT 2023
+[INFO] 29-07-2023 22:02:19 [main] Log - Starting Suite: Sat Jul 29 22:02:18 ICT 2023
+[INFO] 29-07-2023 22:02:54 [main] Log - Notebooks_01_SortWithName_AtoZ is skipped.
+[INFO] 29-07-2023 22:02:54 [main] Log - Notebooks_02_SortWithName_ZtoA is skipped.
+[INFO] 29-07-2023 22:02:54 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is skipped.
+[INFO] 29-07-2023 22:02:54 [main] Log - Notebooks_04_SortWithPrice_HightoLow is skipped.
+[INFO] 29-07-2023 22:02:54 [main] Log - Notebooks_05_SortDisplayed_3PerPage is skipped.
+[INFO] 29-07-2023 22:02:54 [main] Log - Notebooks_06_SortDisplayed_6PerPage is skipped.
+[INFO] 29-07-2023 22:02:54 [main] Log - Notebooks_07_SortDisplayed_9PerPage is skipped.
+[INFO] 29-07-2023 22:02:54 [main] Log - Finish Suite: Sat Jul 29 22:02:54 ICT 2023
+[INFO] 29-07-2023 22:03:24 [main] Log - Starting Suite: Sat Jul 29 22:03:23 ICT 2023
+[INFO] 29-07-2023 22:03:31 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 29-07-2023 22:03:32 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 29-07-2023 22:03:34 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 29-07-2023 22:03:35 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 29-07-2023 22:03:37 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 29-07-2023 22:03:48 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 29-07-2023 22:04:00 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 29-07-2023 22:04:00 [main] Log - Finish Suite: Sat Jul 29 22:04:00 ICT 2023
+[INFO] 29-07-2023 22:16:46 [main] Log - Starting Suite: Sat Jul 29 22:16:45 ICT 2023
+[INFO] 29-07-2023 22:16:59 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 29-07-2023 22:16:59 [main] Log - Finish Suite: Sat Jul 29 22:16:59 ICT 2023
+[INFO] 30-07-2023 10:28:57 [main] Log - Starting Suite: Sun Jul 30 10:28:56 ICT 2023
+[INFO] 30-07-2023 10:29:03 [main] Log - TC_01_Wishlist_AddToWishList is skipped.
+[INFO] 30-07-2023 10:29:03 [main] Log - Finish Suite: Sun Jul 30 10:29:03 ICT 2023
+[INFO] 30-07-2023 10:30:28 [main] Log - Starting Suite: Sun Jul 30 10:30:27 ICT 2023
+[INFO] 30-07-2023 10:30:43 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 10:30:44 [main] Log - Finish Suite: Sun Jul 30 10:30:44 ICT 2023
+[INFO] 30-07-2023 20:08:39 [main] Log - Starting Suite: Sun Jul 30 20:08:38 ICT 2023
+[INFO] 30-07-2023 20:08:56 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 20:08:57 [main] Log - Finish Suite: Sun Jul 30 20:08:57 ICT 2023
+[INFO] 30-07-2023 20:25:08 [main] Log - Starting Suite: Sun Jul 30 20:25:08 ICT 2023
+[INFO] 30-07-2023 20:25:25 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 20:25:26 [main] Log - Finish Suite: Sun Jul 30 20:25:26 ICT 2023
+[INFO] 30-07-2023 20:26:16 [main] Log - Starting Suite: Sun Jul 30 20:26:15 ICT 2023
+[INFO] 30-07-2023 20:26:32 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 20:26:33 [main] Log - Finish Suite: Sun Jul 30 20:26:33 ICT 2023
+[INFO] 30-07-2023 22:09:03 [main] Log - Starting Suite: Sun Jul 30 22:09:02 ICT 2023
+[INFO] 30-07-2023 22:09:19 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 22:09:21 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 30-07-2023 22:09:21 [main] Log - Finish Suite: Sun Jul 30 22:09:21 ICT 2023
+[INFO] 30-07-2023 22:13:28 [main] Log - Starting Suite: Sun Jul 30 22:13:27 ICT 2023
+[INFO] 30-07-2023 22:13:47 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 22:13:48 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 30-07-2023 22:13:49 [main] Log - Finish Suite: Sun Jul 30 22:13:49 ICT 2023
+[INFO] 30-07-2023 22:14:53 [main] Log - Starting Suite: Sun Jul 30 22:14:52 ICT 2023
+[INFO] 30-07-2023 22:15:20 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 22:15:26 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 30-07-2023 22:15:26 [main] Log - Finish Suite: Sun Jul 30 22:15:26 ICT 2023
+[INFO] 30-07-2023 22:15:55 [main] Log - Starting Suite: Sun Jul 30 22:15:54 ICT 2023
+[INFO] 30-07-2023 22:16:43 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 30-07-2023 22:16:55 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 30-07-2023 22:16:55 [main] Log - Finish Suite: Sun Jul 30 22:16:55 ICT 2023
+[INFO] 31-07-2023 13:18:15 [main] Log - Starting Suite: Mon Jul 31 13:18:14 ICT 2023
+[INFO] 31-07-2023 13:18:35 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 31-07-2023 13:18:37 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 31-07-2023 13:18:38 [main] Log - Finish Suite: Mon Jul 31 13:18:38 ICT 2023
+[INFO] 31-07-2023 13:19:16 [main] Log - Starting Suite: Mon Jul 31 13:19:15 ICT 2023
+[INFO] 31-07-2023 13:19:36 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 31-07-2023 13:19:49 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 31-07-2023 13:19:49 [main] Log - Finish Suite: Mon Jul 31 13:19:49 ICT 2023
+[INFO] 31-07-2023 13:21:49 [main] Log - Starting Suite: Mon Jul 31 13:21:49 ICT 2023
+[INFO] 31-07-2023 13:22:07 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 31-07-2023 13:22:20 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 31-07-2023 13:22:20 [main] Log - Finish Suite: Mon Jul 31 13:22:20 ICT 2023
+[INFO] 31-07-2023 13:54:33 [main] Log - Starting Suite: Mon Jul 31 13:54:32 ICT 2023
+[INFO] 31-07-2023 13:54:51 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 31-07-2023 13:54:54 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 31-07-2023 13:54:58 [main] Log - TC_03_Wishlist_RemoveProduct is failed.
+[INFO] 31-07-2023 13:54:59 [main] Log - Finish Suite: Mon Jul 31 13:54:59 ICT 2023
+[INFO] 31-07-2023 13:56:16 [main] Log - Starting Suite: Mon Jul 31 13:56:15 ICT 2023
+[INFO] 31-07-2023 13:56:42 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 31-07-2023 13:56:47 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 31-07-2023 13:56:55 [main] Log - TC_03_Wishlist_RemoveProduct is failed.
+[INFO] 31-07-2023 13:56:55 [main] Log - Finish Suite: Mon Jul 31 13:56:55 ICT 2023
+[INFO] 01-08-2023 18:40:38 [main] Log - Starting Suite: Tue Aug 01 18:40:37 ICT 2023
+[INFO] 01-08-2023 18:41:06 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 01-08-2023 18:41:12 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 01-08-2023 18:41:20 [main] Log - TC_03_Wishlist_RemoveProduct is failed.
+[INFO] 01-08-2023 18:41:20 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 01-08-2023 18:41:20 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 01-08-2023 18:41:20 [main] Log - Finish Suite: Tue Aug 01 18:41:20 ICT 2023
+[INFO] 01-08-2023 18:41:59 [main] Log - Starting Suite: Tue Aug 01 18:41:59 ICT 2023
+[INFO] 01-08-2023 18:42:29 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 01-08-2023 18:42:30 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 01-08-2023 18:42:30 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 01-08-2023 18:42:30 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 01-08-2023 18:42:30 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 01-08-2023 18:42:30 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 01-08-2023 18:42:30 [main] Log - TC_07_Reoder is passed.
+[INFO] 01-08-2023 18:42:30 [main] Log - Finish Suite: Tue Aug 01 18:42:30 ICT 2023
+[INFO] 01-08-2023 19:28:17 [main] Log - Starting Suite: Tue Aug 01 19:28:16 ICT 2023
+[INFO] 01-08-2023 19:28:46 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 01-08-2023 19:28:47 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 01-08-2023 19:28:47 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 01-08-2023 19:28:48 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 01-08-2023 19:28:48 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 01-08-2023 19:28:48 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 01-08-2023 19:28:48 [main] Log - TC_07_Reoder is passed.
+[INFO] 01-08-2023 19:28:48 [main] Log - Finish Suite: Tue Aug 01 19:28:48 ICT 2023
+[INFO] 01-08-2023 19:30:58 [main] Log - Starting Suite: Tue Aug 01 19:30:57 ICT 2023
+[INFO] 01-08-2023 19:31:24 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 01-08-2023 19:31:40 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 01-08-2023 19:31:41 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 01-08-2023 19:31:41 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 01-08-2023 19:31:41 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 01-08-2023 19:31:41 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 01-08-2023 19:31:41 [main] Log - TC_07_Reoder is passed.
+[INFO] 01-08-2023 19:31:41 [main] Log - Finish Suite: Tue Aug 01 19:31:41 ICT 2023
+[INFO] 01-08-2023 19:32:27 [main] Log - Starting Suite: Tue Aug 01 19:32:27 ICT 2023
+[INFO] 01-08-2023 19:32:52 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 01-08-2023 19:32:53 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 01-08-2023 19:32:54 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 01-08-2023 19:32:54 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 01-08-2023 19:32:54 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 01-08-2023 19:32:54 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 01-08-2023 19:32:54 [main] Log - TC_07_Reoder is passed.
+[INFO] 01-08-2023 19:32:54 [main] Log - Finish Suite: Tue Aug 01 19:32:54 ICT 2023
+[INFO] 01-08-2023 19:33:55 [main] Log - Starting Suite: Tue Aug 01 19:33:54 ICT 2023
+[INFO] 01-08-2023 19:34:19 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 01-08-2023 19:34:27 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 01-08-2023 19:34:27 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 01-08-2023 19:34:27 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 01-08-2023 19:34:27 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 01-08-2023 19:34:28 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 01-08-2023 19:34:28 [main] Log - TC_07_Reoder is passed.
+[INFO] 01-08-2023 19:34:28 [main] Log - Finish Suite: Tue Aug 01 19:34:28 ICT 2023
+[INFO] 04-08-2023 15:52:08 [main] Log - Starting Suite: Fri Aug 04 15:52:08 ICT 2023
+[INFO] 04-08-2023 15:52:36 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 04-08-2023 15:52:40 [main] Log - TC_02_Wishlist_AddToCart is failed.
+[INFO] 04-08-2023 15:52:47 [main] Log - TC_03_Wishlist_RemoveProduct is failed.
+[INFO] 04-08-2023 15:52:47 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 04-08-2023 15:52:47 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 04-08-2023 15:52:47 [main] Log - Finish Suite: Fri Aug 04 15:52:47 ICT 2023
+[INFO] 04-08-2023 15:59:02 [main] Log - Starting Suite: Fri Aug 04 15:59:02 ICT 2023
+[INFO] 04-08-2023 15:59:28 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 04-08-2023 15:59:38 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 04-08-2023 15:59:49 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 04-08-2023 15:59:50 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 04-08-2023 15:59:50 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 04-08-2023 15:59:50 [main] Log - Finish Suite: Fri Aug 04 15:59:50 ICT 2023
+[INFO] 06-08-2023 15:04:37 [main] Log - Starting Suite: Sun Aug 06 15:04:36 ICT 2023
+[INFO] 06-08-2023 15:05:05 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 15:05:16 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 15:05:28 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 15:05:30 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 15:05:30 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 15:05:31 [main] Log - Finish Suite: Sun Aug 06 15:05:31 ICT 2023
+[INFO] 06-08-2023 15:29:41 [main] Log - Starting Suite: Sun Aug 06 15:29:40 ICT 2023
+[INFO] 06-08-2023 15:30:05 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 15:30:15 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 15:30:28 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 15:30:29 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 15:30:29 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 15:30:30 [main] Log - Finish Suite: Sun Aug 06 15:30:30 ICT 2023
+[INFO] 06-08-2023 15:41:59 [main] Log - Starting Suite: Sun Aug 06 15:41:58 ICT 2023
+[INFO] 06-08-2023 15:42:25 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 15:42:35 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 15:42:46 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 15:42:50 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 15:42:50 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 15:42:50 [main] Log - Finish Suite: Sun Aug 06 15:42:50 ICT 2023
+[INFO] 06-08-2023 15:44:17 [main] Log - Starting Suite: Sun Aug 06 15:44:16 ICT 2023
+[INFO] 06-08-2023 15:44:41 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 15:44:52 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 15:45:05 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 15:45:10 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 15:45:11 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 15:45:12 [main] Log - Finish Suite: Sun Aug 06 15:45:12 ICT 2023
+[INFO] 06-08-2023 15:54:42 [main] Log - Starting Suite: Sun Aug 06 15:54:41 ICT 2023
+[INFO] 06-08-2023 15:55:06 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 15:55:17 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 15:55:32 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 15:55:37 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 15:55:38 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 15:55:38 [main] Log - Finish Suite: Sun Aug 06 15:55:38 ICT 2023
+[INFO] 06-08-2023 22:01:51 [main] Log - Starting Suite: Sun Aug 06 22:01:50 ICT 2023
+[INFO] 06-08-2023 22:02:11 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 22:02:20 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 22:02:31 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 22:02:36 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 22:02:49 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 22:02:50 [main] Log - Finish Suite: Sun Aug 06 22:02:50 ICT 2023
+[INFO] 06-08-2023 22:11:01 [main] Log - Starting Suite: Sun Aug 06 22:11:01 ICT 2023
+[INFO] 06-08-2023 22:11:20 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 22:11:28 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 22:11:39 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 22:11:43 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 22:11:51 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 22:11:52 [main] Log - Finish Suite: Sun Aug 06 22:11:52 ICT 2023
+[INFO] 06-08-2023 22:17:27 [main] Log - Starting Suite: Sun Aug 06 22:17:26 ICT 2023
+[INFO] 06-08-2023 22:17:44 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 22:17:53 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 22:18:03 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 22:18:07 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 22:18:13 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 22:18:14 [main] Log - Finish Suite: Sun Aug 06 22:18:14 ICT 2023
+[INFO] 06-08-2023 22:20:12 [main] Log - Starting Suite: Sun Aug 06 22:20:12 ICT 2023
+[INFO] 06-08-2023 22:20:50 [main] Log - TC_01_Wishlist_AddToWishList is skipped.
+[INFO] 06-08-2023 22:20:50 [main] Log - TC_02_Wishlist_AddToCart is skipped.
+[INFO] 06-08-2023 22:20:50 [main] Log - TC_03_Wishlist_RemoveProduct is skipped.
+[INFO] 06-08-2023 22:20:50 [main] Log - TC_04_AddProductToCompare is skipped.
+[INFO] 06-08-2023 22:20:50 [main] Log - TC_05_RecentlyViewedProducts is skipped.
+[INFO] 06-08-2023 22:20:50 [main] Log - Finish Suite: Sun Aug 06 22:20:50 ICT 2023
+[INFO] 06-08-2023 22:25:27 [main] Log - Starting Suite: Sun Aug 06 22:25:26 ICT 2023
+[INFO] 06-08-2023 22:25:48 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 06-08-2023 22:25:56 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 06-08-2023 22:26:06 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 06-08-2023 22:26:10 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 06-08-2023 22:26:16 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 06-08-2023 22:26:17 [main] Log - Finish Suite: Sun Aug 06 22:26:17 ICT 2023
+[INFO] 07-08-2023 10:24:05 [main] Log - Starting Suite: Mon Aug 07 10:24:04 ICT 2023
+[INFO] 07-08-2023 10:24:27 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 07-08-2023 10:24:33 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 07-08-2023 10:24:33 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 07-08-2023 10:24:34 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 07-08-2023 10:24:35 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 07-08-2023 10:24:36 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 07-08-2023 10:24:36 [main] Log - TC_07_Reoder is passed.
+[INFO] 07-08-2023 10:24:37 [main] Log - Finish Suite: Mon Aug 07 10:24:37 ICT 2023
+[INFO] 07-08-2023 10:26:23 [main] Log - Starting Suite: Mon Aug 07 10:26:23 ICT 2023
+[INFO] 07-08-2023 10:26:45 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 07-08-2023 10:26:50 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 07-08-2023 10:26:51 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 07-08-2023 10:26:52 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 07-08-2023 10:26:53 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 07-08-2023 10:26:53 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 07-08-2023 10:26:54 [main] Log - TC_07_Reoder is passed.
+[INFO] 07-08-2023 10:26:55 [main] Log - Finish Suite: Mon Aug 07 10:26:55 ICT 2023
+[INFO] 07-08-2023 10:31:15 [main] Log - Starting Suite: Mon Aug 07 10:31:15 ICT 2023
+[INFO] 07-08-2023 10:31:35 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 07-08-2023 10:31:40 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 07-08-2023 10:31:41 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 07-08-2023 10:31:42 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 07-08-2023 10:31:42 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 07-08-2023 10:31:43 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 07-08-2023 10:31:44 [main] Log - TC_07_Reoder is passed.
+[INFO] 07-08-2023 10:31:45 [main] Log - Finish Suite: Mon Aug 07 10:31:45 ICT 2023
+[INFO] 07-08-2023 10:39:52 [main] Log - Starting Suite: Mon Aug 07 10:39:52 ICT 2023
+[INFO] 07-08-2023 10:40:12 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 07-08-2023 10:40:17 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 07-08-2023 10:40:18 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 07-08-2023 10:40:19 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 07-08-2023 10:40:20 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 07-08-2023 10:40:20 [main] Log - TC_06_Checkout_Order_PaymentCard is passed.
+[INFO] 07-08-2023 10:40:21 [main] Log - TC_07_Reoder is passed.
+[INFO] 07-08-2023 10:40:22 [main] Log - Finish Suite: Mon Aug 07 10:40:22 ICT 2023
+[INFO] 07-08-2023 11:49:25 [main] Log - Starting Suite: Mon Aug 07 11:49:25 ICT 2023
+[INFO] 07-08-2023 11:50:00 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 07-08-2023 11:50:06 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 07-08-2023 11:50:37 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 07-08-2023 11:50:42 [main] Log - TC_04_UpdateShoppingCart is failed.
+[INFO] 07-08-2023 11:50:43 [main] Log - Finish Suite: Mon Aug 07 11:50:43 ICT 2023
+[INFO] 07-08-2023 11:51:39 [main] Log - Starting Suite: Mon Aug 07 11:51:38 ICT 2023
+[INFO] 07-08-2023 11:52:01 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 07-08-2023 11:52:06 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 07-08-2023 11:52:37 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 07-08-2023 11:52:44 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 07-08-2023 11:52:44 [main] Log - Finish Suite: Mon Aug 07 11:52:44 ICT 2023
+[INFO] 10-08-2023 16:06:56 [main] Log - Starting Suite: Thu Aug 10 16:06:55 ICT 2023
+[INFO] 10-08-2023 16:07:22 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:07:28 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:07:31 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:07:41 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:08:21 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:08:22 [main] Log - Finish Suite: Thu Aug 10 16:08:22 ICT 2023
+[INFO] 10-08-2023 16:15:00 [main] Log - Starting Suite: Thu Aug 10 16:14:59 ICT 2023
+[INFO] 10-08-2023 16:15:39 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:15:45 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:15:47 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:15:55 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:16:39 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:16:40 [main] Log - Finish Suite: Thu Aug 10 16:16:40 ICT 2023
+[INFO] 10-08-2023 16:18:51 [main] Log - Starting Suite: Thu Aug 10 16:18:50 ICT 2023
+[INFO] 10-08-2023 16:19:17 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:19:23 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:19:25 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:19:32 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:20:14 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:20:15 [main] Log - Finish Suite: Thu Aug 10 16:20:15 ICT 2023
+[INFO] 10-08-2023 16:21:51 [main] Log - Starting Suite: Thu Aug 10 16:21:51 ICT 2023
+[INFO] 10-08-2023 16:22:16 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:22:19 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 10-08-2023 16:22:50 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 10-08-2023 16:22:50 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 10-08-2023 16:22:50 [main] Log - Finish Suite: Thu Aug 10 16:22:50 ICT 2023
+[INFO] 10-08-2023 16:23:02 [main] Log - Starting Suite: Thu Aug 10 16:23:01 ICT 2023
+[INFO] 10-08-2023 16:23:26 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:23:32 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:23:33 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:23:41 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:24:23 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:24:23 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:24:23 [main] Log - Finish Suite: Thu Aug 10 16:24:23 ICT 2023
+[INFO] 10-08-2023 16:32:45 [main] Log - Starting Suite: Thu Aug 10 16:32:44 ICT 2023
+[INFO] 10-08-2023 16:33:08 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:33:14 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:33:15 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:33:22 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:33:37 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:33:38 [main] Log - Finish Suite: Thu Aug 10 16:33:38 ICT 2023
+[INFO] 10-08-2023 16:34:28 [main] Log - Starting Suite: Thu Aug 10 16:34:27 ICT 2023
+[INFO] 10-08-2023 16:34:54 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:34:59 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:35:01 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:35:07 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:35:52 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:35:53 [main] Log - Finish Suite: Thu Aug 10 16:35:52 ICT 2023
+[INFO] 10-08-2023 16:37:32 [main] Log - Starting Suite: Thu Aug 10 16:37:31 ICT 2023
+[INFO] 10-08-2023 16:37:54 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:38:00 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:38:01 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:38:07 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:38:52 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 10-08-2023 16:38:53 [main] Log - Finish Suite: Thu Aug 10 16:38:53 ICT 2023
+[INFO] 10-08-2023 16:53:17 [main] Log - Starting Suite: Thu Aug 10 16:53:16 ICT 2023
+[INFO] 10-08-2023 16:53:40 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 10-08-2023 16:53:45 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 10-08-2023 16:53:46 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 10-08-2023 16:53:53 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 10-08-2023 16:54:07 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 10-08-2023 16:54:08 [main] Log - Finish Suite: Thu Aug 10 16:54:08 ICT 2023
+[INFO] 16-08-2023 21:42:59 [main] Log - Starting Suite: Wed Aug 16 21:42:58 ICT 2023
+[INFO] 16-08-2023 21:42:59 [main] Log - TC_01_AddProductToCart is skipped.
+[INFO] 16-08-2023 21:42:59 [main] Log - TC_02_EditProductInShoppingCart is skipped.
+[INFO] 16-08-2023 21:42:59 [main] Log - TC_03_RemoveProductFromCart is skipped.
+[INFO] 16-08-2023 21:42:59 [main] Log - TC_04_UpdateShoppingCart is skipped.
+[INFO] 16-08-2023 21:42:59 [main] Log - TC_05_Checkout_Order_PaymentCheque is skipped.
+[INFO] 16-08-2023 21:42:59 [main] Log - Finish Suite: Wed Aug 16 21:42:59 ICT 2023
+[INFO] 16-08-2023 21:43:43 [main] Log - Starting Suite: Wed Aug 16 21:43:42 ICT 2023
+[INFO] 16-08-2023 21:44:01 [main] Log - TC_01_AddProductToCart is failed.
+[INFO] 16-08-2023 21:44:02 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 16-08-2023 21:44:03 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 16-08-2023 21:44:04 [main] Log - TC_04_UpdateShoppingCart is failed.
+[INFO] 16-08-2023 21:44:04 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 16-08-2023 21:44:05 [main] Log - Finish Suite: Wed Aug 16 21:44:05 ICT 2023
+[INFO] 16-08-2023 22:14:58 [main] Log - Starting Suite: Wed Aug 16 22:14:57 ICT 2023
+[INFO] 16-08-2023 22:15:58 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 16-08-2023 22:16:00 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 16-08-2023 22:16:31 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 16-08-2023 22:16:37 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 16-08-2023 22:16:46 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 16-08-2023 22:16:46 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 16-08-2023 22:16:46 [main] Log - Finish Suite: Wed Aug 16 22:16:46 ICT 2023
+[INFO] 16-08-2023 22:22:17 [main] Log - Starting Suite: Wed Aug 16 22:22:16 ICT 2023
+[INFO] 16-08-2023 22:22:22 [main] Log - MyAccount_01_CustomerInfo is skipped.
+[INFO] 16-08-2023 22:22:22 [main] Log - MyAccount_02_Addresses is skipped.
+[INFO] 16-08-2023 22:22:22 [main] Log - MyAccount_03_ChangePassword is skipped.
+[INFO] 16-08-2023 22:22:22 [main] Log - MyAccount_04_MyProductReviews is skipped.
+[INFO] 16-08-2023 22:22:22 [main] Log - Finish Suite: Wed Aug 16 22:22:22 ICT 2023
+[INFO] 16-08-2023 22:23:14 [main] Log - Starting Suite: Wed Aug 16 22:23:13 ICT 2023
+[INFO] 16-08-2023 22:23:29 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 16-08-2023 22:23:34 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 16-08-2023 22:24:10 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 16-08-2023 22:24:14 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 16-08-2023 22:24:15 [main] Log - Finish Suite: Wed Aug 16 22:24:15 ICT 2023
+[INFO] 16-08-2023 22:34:16 [main] Log - Starting Suite: Wed Aug 16 22:34:15 ICT 2023
+[INFO] 16-08-2023 22:34:30 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 16-08-2023 22:34:34 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 16-08-2023 22:34:45 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 16-08-2023 22:34:49 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 16-08-2023 22:34:50 [main] Log - Finish Suite: Wed Aug 16 22:34:50 ICT 2023
+[INFO] 17-08-2023 08:56:36 [main] Log - Starting Suite: Thu Aug 17 08:56:35 ICT 2023
+[INFO] 17-08-2023 08:56:57 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 08:57:28 [main] Log - MyAccount_02_Addresses is failed.
+[INFO] 17-08-2023 08:57:32 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 17-08-2023 08:58:03 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 17-08-2023 08:58:04 [main] Log - Finish Suite: Thu Aug 17 08:58:03 ICT 2023
+[INFO] 17-08-2023 09:00:08 [main] Log - Starting Suite: Thu Aug 17 09:00:07 ICT 2023
+[INFO] 17-08-2023 09:00:22 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 09:00:26 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 17-08-2023 09:00:29 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 17-08-2023 09:01:00 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 17-08-2023 09:01:00 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 17-08-2023 09:01:00 [main] Log - Finish Suite: Thu Aug 17 09:01:00 ICT 2023
+[INFO] 17-08-2023 09:05:11 [main] Log - Starting Suite: Thu Aug 17 09:05:10 ICT 2023
+[INFO] 17-08-2023 09:05:25 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 09:05:29 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 17-08-2023 09:05:32 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 17-08-2023 09:06:14 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 17-08-2023 09:06:14 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 17-08-2023 09:06:14 [main] Log - Finish Suite: Thu Aug 17 09:06:14 ICT 2023
+[INFO] 17-08-2023 09:09:16 [main] Log - Starting Suite: Thu Aug 17 09:09:15 ICT 2023
+[INFO] 17-08-2023 09:09:30 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 09:09:33 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 17-08-2023 09:09:44 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 17-08-2023 09:09:48 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 17-08-2023 09:09:49 [main] Log - Finish Suite: Thu Aug 17 09:09:49 ICT 2023
+[INFO] 17-08-2023 09:15:52 [main] Log - Starting Suite: Thu Aug 17 09:15:51 ICT 2023
+[INFO] 17-08-2023 09:16:15 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 09:16:17 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 09:16:27 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 09:16:32 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 09:16:43 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 09:16:44 [main] Log - Finish Suite: Thu Aug 17 09:16:44 ICT 2023
+[INFO] 17-08-2023 09:22:34 [main] Log - Starting Suite: Thu Aug 17 09:22:33 ICT 2023
+[INFO] 17-08-2023 09:22:56 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 09:22:58 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 09:23:09 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 09:23:13 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 09:23:25 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 09:23:27 [main] Log - Finish Suite: Thu Aug 17 09:23:27 ICT 2023
+[INFO] 17-08-2023 09:37:23 [main] Log - Starting Suite: Thu Aug 17 09:37:22 ICT 2023
+[INFO] 17-08-2023 09:37:45 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 09:37:49 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 09:38:01 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 09:38:06 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 09:38:19 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 09:38:19 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 09:38:20 [main] Log - Finish Suite: Thu Aug 17 09:38:19 ICT 2023
+[INFO] 17-08-2023 10:33:34 [main] Log - Starting Suite: Thu Aug 17 10:33:34 ICT 2023
+[INFO] 17-08-2023 10:33:57 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 10:34:00 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 10:34:04 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 10:34:04 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 10:34:04 [main] Log - Finish Suite: Thu Aug 17 10:34:04 ICT 2023
+[INFO] 17-08-2023 10:34:24 [main] Log - Starting Suite: Thu Aug 17 10:34:24 ICT 2023
+[INFO] 17-08-2023 10:34:50 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 10:35:01 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 10:35:04 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 10:35:08 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 10:35:22 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 10:35:26 [main] Log - Finish Suite: Thu Aug 17 10:35:26 ICT 2023
+[INFO] 17-08-2023 10:40:30 [main] Log - Starting Suite: Thu Aug 17 10:40:29 ICT 2023
+[INFO] 17-08-2023 10:41:00 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 10:41:11 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 10:41:14 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 10:41:20 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 10:41:33 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 10:41:36 [main] Log - Finish Suite: Thu Aug 17 10:41:36 ICT 2023
+[INFO] 17-08-2023 10:42:59 [main] Log - Starting Suite: Thu Aug 17 10:42:59 ICT 2023
+[INFO] 17-08-2023 10:43:00 [main] Log - TC_01_AddProductToCart is skipped.
+[INFO] 17-08-2023 10:43:00 [main] Log - TC_02_EditProductInShoppingCart is skipped.
+[INFO] 17-08-2023 10:43:00 [main] Log - TC_03_RemoveProductFromCart is skipped.
+[INFO] 17-08-2023 10:43:00 [main] Log - TC_04_UpdateShoppingCart is skipped.
+[INFO] 17-08-2023 10:43:00 [main] Log - TC_05_Checkout_Order_PaymentCheque is skipped.
+[INFO] 17-08-2023 10:43:00 [main] Log - Finish Suite: Thu Aug 17 10:43:00 ICT 2023
+[INFO] 17-08-2023 10:56:18 [main] Log - Starting Suite: Thu Aug 17 10:56:17 ICT 2023
+[INFO] 17-08-2023 10:56:42 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 10:56:45 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 10:56:58 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 10:57:03 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 10:57:18 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 17-08-2023 10:57:21 [main] Log - Finish Suite: Thu Aug 17 10:57:21 ICT 2023
+[INFO] 17-08-2023 11:06:40 [main] Log - Starting Suite: Thu Aug 17 11:06:39 ICT 2023
+[INFO] 17-08-2023 11:06:43 [main] Log - Run on environment: {DB.User=, DB.Host=, App.User=, App.Pass=, DB.Pass=, App.Url=https://demo.nopcommerce.com/}
+[INFO] 17-08-2023 11:06:43 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 11:06:48 [main] Log - TC_01_AddProductToCart is skipped.
+[INFO] 17-08-2023 11:06:48 [main] Log - TC_02_EditProductInShoppingCart is skipped.
+[INFO] 17-08-2023 11:06:48 [main] Log - TC_03_RemoveProductFromCart is skipped.
+[INFO] 17-08-2023 11:06:48 [main] Log - TC_04_UpdateShoppingCart is skipped.
+[INFO] 17-08-2023 11:06:48 [main] Log - TC_05_Checkout_Order_PaymentCheque is skipped.
+[INFO] 17-08-2023 11:06:48 [main] Log - Finish Suite: Thu Aug 17 11:06:48 ICT 2023
+[INFO] 17-08-2023 11:08:47 [main] Log - Starting Suite: Thu Aug 17 11:08:46 ICT 2023
+[INFO] 17-08-2023 11:08:51 [main] Log - Run on environment: {DB.User=, DB.Host=, App.User=, App.Pass=, DB.Pass=, App.Url=https://demo.nopcommerce.com/}
+[INFO] 17-08-2023 11:08:51 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 11:09:08 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 11:09:21 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 11:09:21 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 11:09:21 [main] Log - Finish Suite: Thu Aug 17 11:09:21 ICT 2023
+[INFO] 17-08-2023 11:16:16 [main] Log - Starting Suite: Thu Aug 17 11:16:15 ICT 2023
+[INFO] 17-08-2023 11:16:20 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 11:16:39 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 11:16:42 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 11:16:47 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 11:16:47 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 11:16:47 [main] Log - Finish Suite: Thu Aug 17 11:16:47 ICT 2023
+[INFO] 17-08-2023 11:17:57 [main] Log - Starting Suite: Thu Aug 17 11:17:56 ICT 2023
+[INFO] 17-08-2023 11:18:02 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 11:18:10 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 11:18:27 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 11:18:38 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 11:18:41 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 11:18:45 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 11:18:59 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 11:19:03 [main] Log - Finish Suite: Thu Aug 17 11:19:03 ICT 2023
+[INFO] 17-08-2023 12:00:12 [main] Log - Starting Suite: Thu Aug 17 12:00:12 ICT 2023
+[INFO] 17-08-2023 12:00:12 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 12:00:29 [main] Log - Login_01_LoginWithEmptyData is failed.
+[INFO] 17-08-2023 12:00:42 [main] Log - Login_02_LoginWithInvalidEmail is failed.
+[INFO] 17-08-2023 12:00:55 [main] Log - Login_02_LoginWithInvalidEmail is failed.
+[INFO] 17-08-2023 12:01:08 [main] Log - Login_03_LoginWithUnregisteredEmail is failed.
+[INFO] 17-08-2023 12:01:10 [main] Log - Login_04_LoginWithRegisteredEmailEmptyPassword is failed.
+[INFO] 17-08-2023 12:01:13 [main] Log - Login_05_LoginWithRegisteredEmailWrongPassword is failed.
+[INFO] 17-08-2023 12:01:15 [main] Log - Login_06_LoginSuccess is failed.
+[INFO] 17-08-2023 12:01:19 [main] Log - Finish Suite: Thu Aug 17 12:01:19 ICT 2023
+[INFO] 17-08-2023 12:04:13 [main] Log - Starting Suite: Thu Aug 17 12:04:13 ICT 2023
+[INFO] 17-08-2023 12:04:13 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 12:04:20 [main] Log - Login_01_LoginWithEmptyData is passed.
+[INFO] 17-08-2023 12:04:23 [main] Log - Login_02_LoginWithInvalidEmail is passed.
+[INFO] 17-08-2023 12:04:26 [main] Log - Login_02_LoginWithInvalidEmail is passed.
+[INFO] 17-08-2023 12:04:30 [main] Log - Login_03_LoginWithUnregisteredEmail is passed.
+[INFO] 17-08-2023 12:04:32 [main] Log - Login_04_LoginWithRegisteredEmailEmptyPassword is failed.
+[INFO] 17-08-2023 12:04:35 [main] Log - Login_05_LoginWithRegisteredEmailWrongPassword is failed.
+[INFO] 17-08-2023 12:04:37 [main] Log - Login_06_LoginSuccess is failed.
+[INFO] 17-08-2023 12:04:40 [main] Log - Finish Suite: Thu Aug 17 12:04:40 ICT 2023
+[INFO] 17-08-2023 12:06:15 [main] Log - Starting Suite: Thu Aug 17 12:06:15 ICT 2023
+[INFO] 17-08-2023 12:06:15 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 12:06:22 [main] Log - Login_01_LoginWithEmptyData is passed.
+[INFO] 17-08-2023 12:06:25 [main] Log - Login_02_LoginWithInvalidEmail is passed.
+[INFO] 17-08-2023 12:06:28 [main] Log - Login_02_LoginWithInvalidEmail is passed.
+[INFO] 17-08-2023 12:06:31 [main] Log - Login_03_LoginWithUnregisteredEmail is passed.
+[INFO] 17-08-2023 12:06:34 [main] Log - Login_04_LoginWithRegisteredEmailEmptyPassword is failed.
+[INFO] 17-08-2023 12:06:36 [main] Log - Login_05_LoginWithRegisteredEmailWrongPassword is failed.
+[INFO] 17-08-2023 12:06:39 [main] Log - Login_06_LoginSuccess is failed.
+[INFO] 17-08-2023 12:06:41 [main] Log - Finish Suite: Thu Aug 17 12:06:41 ICT 2023
+[INFO] 17-08-2023 14:26:50 [main] Log - Starting Suite: Thu Aug 17 14:26:49 ICT 2023
+[INFO] 17-08-2023 14:26:59 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 14:27:04 [main] Log - Login_01_LoginWithEmptyData is passed.
+[INFO] 17-08-2023 14:27:07 [main] Log - Login_02_LoginWithInvalidEmail is passed.
+[INFO] 17-08-2023 14:27:10 [main] Log - Login_02_LoginWithInvalidEmail is passed.
+[INFO] 17-08-2023 14:27:13 [main] Log - Login_03_LoginWithUnregisteredEmail is passed.
+[INFO] 17-08-2023 14:27:16 [main] Log - Login_04_LoginWithRegisteredEmailEmptyPassword is passed.
+[INFO] 17-08-2023 14:27:19 [main] Log - Login_05_LoginWithRegisteredEmailWrongPassword is passed.
+[INFO] 17-08-2023 14:27:23 [main] Log - Login_06_LoginSuccess is passed.
+[INFO] 17-08-2023 14:27:26 [main] Log - Finish Suite: Thu Aug 17 14:27:26 ICT 2023
+[INFO] 17-08-2023 14:28:30 [main] Log - Starting Suite: Thu Aug 17 14:28:29 ICT 2023
+[INFO] 17-08-2023 14:28:42 [main] Log - Run on browser: edge
+[INFO] 17-08-2023 14:28:47 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 14:28:53 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 17-08-2023 14:29:05 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 17-08-2023 14:29:10 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 17-08-2023 14:29:13 [main] Log - Finish Suite: Thu Aug 17 14:29:13 ICT 2023
+[INFO] 17-08-2023 14:29:33 [main] Log - Starting Suite: Thu Aug 17 14:29:33 ICT 2023
+[INFO] 17-08-2023 14:29:41 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 14:29:46 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 14:29:52 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 17-08-2023 14:30:05 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 17-08-2023 14:30:10 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 17-08-2023 14:30:12 [main] Log - Finish Suite: Thu Aug 17 14:30:12 ICT 2023
+[INFO] 17-08-2023 14:31:08 [main] Log - Starting Suite: Thu Aug 17 14:31:08 ICT 2023
+[INFO] 17-08-2023 14:31:08 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 14:31:15 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 17-08-2023 14:31:17 [main] Log - Notebooks_02_SortWithName_ZtoA is failed.
+[INFO] 17-08-2023 14:31:20 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is failed.
+[INFO] 17-08-2023 14:31:22 [main] Log - Notebooks_04_SortWithPrice_HightoLow is failed.
+[INFO] 17-08-2023 14:31:25 [main] Log - Notebooks_05_SortDisplayed_3PerPage is failed.
+[INFO] 17-08-2023 14:31:38 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 17-08-2023 14:31:50 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 17-08-2023 14:31:53 [main] Log - Finish Suite: Thu Aug 17 14:31:53 ICT 2023
+[INFO] 17-08-2023 14:47:25 [main] Log - Starting Suite: Thu Aug 17 14:47:25 ICT 2023
+[INFO] 17-08-2023 14:47:25 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 14:47:31 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 17-08-2023 14:47:33 [main] Log - Notebooks_02_SortWithName_ZtoA is failed.
+[INFO] 17-08-2023 14:47:36 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is failed.
+[INFO] 17-08-2023 14:47:38 [main] Log - Notebooks_04_SortWithPrice_HightoLow is failed.
+[INFO] 17-08-2023 14:47:41 [main] Log - Notebooks_05_SortDisplayed_3PerPage is failed.
+[INFO] 17-08-2023 14:47:54 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 17-08-2023 14:48:06 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 17-08-2023 14:48:08 [main] Log - Finish Suite: Thu Aug 17 14:48:08 ICT 2023
+[INFO] 17-08-2023 14:52:11 [main] Log - Starting Suite: Thu Aug 17 14:52:11 ICT 2023
+[INFO] 17-08-2023 14:52:11 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 14:52:17 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 17-08-2023 14:52:19 [main] Log - Notebooks_02_SortWithName_ZtoA is failed.
+[INFO] 17-08-2023 14:52:22 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is failed.
+[INFO] 17-08-2023 14:52:24 [main] Log - Notebooks_04_SortWithPrice_HightoLow is failed.
+[INFO] 17-08-2023 14:52:27 [main] Log - Notebooks_05_SortDisplayed_3PerPage is failed.
+[INFO] 17-08-2023 14:52:40 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 17-08-2023 14:52:52 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 17-08-2023 14:52:54 [main] Log - Finish Suite: Thu Aug 17 14:52:54 ICT 2023
+[INFO] 17-08-2023 15:06:52 [main] Log - Starting Suite: Thu Aug 17 15:06:51 ICT 2023
+[INFO] 17-08-2023 15:06:52 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:06:58 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 17-08-2023 15:07:01 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 17-08-2023 15:07:03 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is failed.
+[INFO] 17-08-2023 15:07:06 [main] Log - Notebooks_04_SortWithPrice_HightoLow is failed.
+[INFO] 17-08-2023 15:07:08 [main] Log - Notebooks_05_SortDisplayed_3PerPage is failed.
+[INFO] 17-08-2023 15:07:21 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 17-08-2023 15:07:34 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 17-08-2023 15:07:36 [main] Log - Finish Suite: Thu Aug 17 15:07:36 ICT 2023
+[INFO] 17-08-2023 15:08:44 [main] Log - Starting Suite: Thu Aug 17 15:08:43 ICT 2023
+[INFO] 17-08-2023 15:08:44 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:08:50 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 17-08-2023 15:08:53 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 17-08-2023 15:08:56 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 17-08-2023 15:08:59 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 17-08-2023 15:09:03 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 17-08-2023 15:09:16 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 17-08-2023 15:09:29 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 17-08-2023 15:09:31 [main] Log - Finish Suite: Thu Aug 17 15:09:31 ICT 2023
+[INFO] 17-08-2023 15:12:06 [main] Log - Starting Suite: Thu Aug 17 15:12:06 ICT 2023
+[INFO] 17-08-2023 15:12:14 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:12:28 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 15:12:31 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 15:12:43 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 15:12:58 [main] Log - TC_04_UpdateShoppingCart is failed.
+[INFO] 17-08-2023 15:12:58 [main] Log - TC_04_UpdateShoppingCart is failed.
+[INFO] 17-08-2023 15:12:58 [main] Log - Finish Suite: Thu Aug 17 15:12:58 ICT 2023
+[INFO] 17-08-2023 15:23:12 [main] Log - Starting Suite: Thu Aug 17 15:23:11 ICT 2023
+[INFO] 17-08-2023 15:23:27 [main] Log - TC_01_AddProductToCart is skipped.
+[INFO] 17-08-2023 15:23:27 [main] Log - TC_02_EditProductInShoppingCart is skipped.
+[INFO] 17-08-2023 15:23:27 [main] Log - TC_03_RemoveProductFromCart is skipped.
+[INFO] 17-08-2023 15:23:27 [main] Log - TC_04_UpdateShoppingCart is skipped.
+[INFO] 17-08-2023 15:23:27 [main] Log - TC_05_Checkout_Order_PaymentCheque is skipped.
+[INFO] 17-08-2023 15:23:27 [main] Log - Finish Suite: Thu Aug 17 15:23:27 ICT 2023
+[INFO] 17-08-2023 15:25:15 [main] Log - Starting Suite: Thu Aug 17 15:25:15 ICT 2023
+[INFO] 17-08-2023 15:25:23 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:25:42 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 15:25:45 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 15:25:57 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 15:25:57 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 15:25:58 [main] Log - Finish Suite: Thu Aug 17 15:25:57 ICT 2023
+[INFO] 17-08-2023 15:43:13 [main] Log - Starting Suite: Thu Aug 17 15:43:12 ICT 2023
+[INFO] 17-08-2023 15:43:21 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:43:35 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 15:43:40 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 15:43:52 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 15:43:57 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 15:44:10 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 15:44:12 [main] Log - Finish Suite: Thu Aug 17 15:44:12 ICT 2023
+[INFO] 17-08-2023 15:45:43 [main] Log - Starting Suite: Thu Aug 17 15:45:42 ICT 2023
+[INFO] 17-08-2023 15:45:51 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:46:04 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 15:46:17 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 15:46:29 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 15:46:35 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 15:46:48 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 15:46:50 [main] Log - Finish Suite: Thu Aug 17 15:46:50 ICT 2023
+[INFO] 17-08-2023 15:51:08 [main] Log - Starting Suite: Thu Aug 17 15:51:08 ICT 2023
+[INFO] 17-08-2023 15:51:17 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:51:33 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 15:51:36 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 15:51:48 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 15:51:54 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 15:52:07 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 15:52:09 [main] Log - Finish Suite: Thu Aug 17 15:52:09 ICT 2023
+[INFO] 17-08-2023 15:54:04 [main] Log - Starting Suite: Thu Aug 17 15:54:03 ICT 2023
+[INFO] 17-08-2023 15:54:18 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:54:31 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 15:54:42 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 15:54:44 [main] Log - Finish Suite: Thu Aug 17 15:54:44 ICT 2023
+[INFO] 17-08-2023 15:59:07 [main] Log - Starting Suite: Thu Aug 17 15:59:06 ICT 2023
+[INFO] 17-08-2023 15:59:14 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 15:59:27 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 15:59:38 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 15:59:41 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 15:59:46 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 15:59:59 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 16:00:01 [main] Log - Finish Suite: Thu Aug 17 16:00:01 ICT 2023
+[INFO] 17-08-2023 16:16:22 [main] Log - Starting Suite: Thu Aug 17 16:16:21 ICT 2023
+[INFO] 17-08-2023 16:16:36 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 16:16:50 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 16:17:00 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 16:17:03 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 16:17:08 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 16:17:11 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 16:17:14 [main] Log - Finish Suite: Thu Aug 17 16:17:14 ICT 2023
+[INFO] 17-08-2023 16:23:35 [main] Log - Starting Suite: Thu Aug 17 16:23:35 ICT 2023
+[INFO] 17-08-2023 16:23:44 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 16:23:59 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 16:24:09 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 16:24:12 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 16:24:17 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 16:24:20 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 16:24:22 [main] Log - Finish Suite: Thu Aug 17 16:24:22 ICT 2023
+[INFO] 17-08-2023 16:33:34 [main] Log - Starting Suite: Thu Aug 17 16:33:33 ICT 2023
+[INFO] 17-08-2023 16:33:44 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 16:34:00 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 16:34:11 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 16:34:14 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 16:34:19 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 16:34:32 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 17-08-2023 16:34:36 [main] Log - Finish Suite: Thu Aug 17 16:34:36 ICT 2023
+[INFO] 17-08-2023 16:38:05 [main] Log - Starting Suite: Thu Aug 17 16:38:04 ICT 2023
+[INFO] 17-08-2023 16:38:22 [main] Log - TC_01_AddProductToCart is skipped.
+[INFO] 17-08-2023 16:38:22 [main] Log - TC_02_EditProductInShoppingCart is skipped.
+[INFO] 17-08-2023 16:38:22 [main] Log - TC_03_RemoveProductFromCart is skipped.
+[INFO] 17-08-2023 16:38:22 [main] Log - TC_04_UpdateShoppingCart is skipped.
+[INFO] 17-08-2023 16:38:22 [main] Log - TC_05_Checkout_Order_PaymentCheque is skipped.
+[INFO] 17-08-2023 16:38:23 [main] Log - Finish Suite: Thu Aug 17 16:38:22 ICT 2023
+[INFO] 17-08-2023 16:38:49 [main] Log - Starting Suite: Thu Aug 17 16:38:48 ICT 2023
+[INFO] 17-08-2023 16:39:03 [main] Log - Run on browser: firefox
+[INFO] 17-08-2023 16:39:24 [main] Log - TC_01_AddProductToCart is skipped.
+[INFO] 17-08-2023 16:39:24 [main] Log - TC_02_EditProductInShoppingCart is skipped.
+[INFO] 17-08-2023 16:39:24 [main] Log - TC_03_RemoveProductFromCart is skipped.
+[INFO] 17-08-2023 16:39:24 [main] Log - TC_04_UpdateShoppingCart is skipped.
+[INFO] 17-08-2023 16:39:24 [main] Log - TC_05_Checkout_Order_PaymentCheque is skipped.
+[INFO] 17-08-2023 16:39:24 [main] Log - Finish Suite: Thu Aug 17 16:39:24 ICT 2023
+[INFO] 17-08-2023 16:39:48 [main] Log - Starting Suite: Thu Aug 17 16:39:48 ICT 2023
+[INFO] 17-08-2023 16:39:59 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 16:40:13 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 16:40:16 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 17-08-2023 16:40:28 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 17-08-2023 16:40:34 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 16:40:46 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 17-08-2023 16:40:49 [main] Log - Finish Suite: Thu Aug 17 16:40:49 ICT 2023
+[INFO] 17-08-2023 16:41:00 [main] Log - Starting Suite: Thu Aug 17 16:41:00 ICT 2023
+[INFO] 17-08-2023 16:41:08 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 16:41:23 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 17-08-2023 16:41:34 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 17-08-2023 16:41:36 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 17-08-2023 16:41:42 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 17-08-2023 16:41:52 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 17-08-2023 16:41:54 [main] Log - Finish Suite: Thu Aug 17 16:41:54 ICT 2023
+[INFO] 17-08-2023 21:06:32 [main] Log - Starting Suite: Thu Aug 17 21:06:32 ICT 2023
+[INFO] 17-08-2023 21:06:32 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:06:38 [main] Log - Register_01_RegisterWithEmptyData is passed.
+[INFO] 17-08-2023 21:06:42 [main] Log - Register_02_RegisterWithInvalidEmail is passed.
+[INFO] 17-08-2023 21:06:44 [main] Log - Register_02_RegisterWithInvalidEmail is passed.
+[INFO] 17-08-2023 21:06:48 [main] Log - Register_03_RegisterSuccess is passed.
+[INFO] 17-08-2023 21:06:51 [main] Log - Register_04_RegisterFailExistingAccount is passed.
+[INFO] 17-08-2023 21:06:55 [main] Log - Register_05_RegisterWithPasswordLess6Char is passed.
+[INFO] 17-08-2023 21:07:08 [main] Log - Register_06_RegisterWithUnmatchedConfirmPassword is failed.
+[INFO] 17-08-2023 21:07:11 [main] Log - Finish Suite: Thu Aug 17 21:07:11 ICT 2023
+[INFO] 17-08-2023 21:13:05 [main] Log - Starting Suite: Thu Aug 17 21:13:04 ICT 2023
+[INFO] 17-08-2023 21:13:05 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:13:10 [main] Log - Register_01_RegisterWithEmptyData is passed.
+[INFO] 17-08-2023 21:13:12 [main] Log - Register_02_RegisterWithInvalidEmail is passed.
+[INFO] 17-08-2023 21:13:13 [main] Log - Register_02_RegisterWithInvalidEmail is passed.
+[INFO] 17-08-2023 21:13:15 [main] Log - Register_03_RegisterSuccess is passed.
+[INFO] 17-08-2023 21:13:18 [main] Log - Register_04_RegisterFailExistingAccount is passed.
+[INFO] 17-08-2023 21:13:19 [main] Log - Register_05_RegisterWithPasswordLess6Char is passed.
+[INFO] 17-08-2023 21:13:21 [main] Log - Register_06_RegisterWithUnmatchedConfirmPassword is passed.
+[INFO] 17-08-2023 21:13:22 [main] Log - Finish Suite: Thu Aug 17 21:13:22 ICT 2023
+[INFO] 17-08-2023 21:14:34 [main] Log - Starting Suite: Thu Aug 17 21:14:33 ICT 2023
+[INFO] 17-08-2023 21:14:42 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:14:47 [main] Log - Search_01_EmptyData is passed.
+[INFO] 17-08-2023 21:14:48 [main] Log - Search_02_NotExistData is passed.
+[INFO] 17-08-2023 21:14:50 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 17-08-2023 21:14:52 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 17-08-2023 21:14:53 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 17-08-2023 21:14:55 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 17-08-2023 21:14:57 [main] Log - Search_07_Advanced_Incorrect_Manufacturer is passed.
+[INFO] 17-08-2023 21:14:59 [main] Log - Search_08_Advanced_Correct_Manufacturer is passed.
+[INFO] 17-08-2023 21:15:00 [main] Log - Finish Suite: Thu Aug 17 21:15:00 ICT 2023
+[INFO] 17-08-2023 21:15:25 [main] Log - Starting Suite: Thu Aug 17 21:15:25 ICT 2023
+[INFO] 17-08-2023 21:15:33 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:15:37 [main] Log - Search_01_EmptyData is passed.
+[INFO] 17-08-2023 21:15:39 [main] Log - Search_02_NotExistData is passed.
+[INFO] 17-08-2023 21:15:40 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 17-08-2023 21:15:42 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 17-08-2023 21:15:44 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 17-08-2023 21:15:46 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 17-08-2023 21:15:48 [main] Log - Search_07_Advanced_Incorrect_Manufacturer is passed.
+[INFO] 17-08-2023 21:15:50 [main] Log - Search_08_Advanced_Correct_Manufacturer is passed.
+[INFO] 17-08-2023 21:15:51 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:15:56 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 21:16:18 [main] Log - MyAccount_02_Addresses is failed.
+[INFO] 17-08-2023 21:16:30 [main] Log - MyAccount_03_ChangePassword is failed.
+[INFO] 17-08-2023 21:16:40 [main] Log - MyAccount_04_MyProductReviews is failed.
+[INFO] 17-08-2023 21:16:41 [main] Log - Finish Suite: Thu Aug 17 21:16:41 ICT 2023
+[INFO] 17-08-2023 21:16:56 [main] Log - Starting Suite: Thu Aug 17 21:16:55 ICT 2023
+[INFO] 17-08-2023 21:17:03 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:17:08 [main] Log - Search_01_EmptyData is passed.
+[INFO] 17-08-2023 21:17:09 [main] Log - Search_02_NotExistData is passed.
+[INFO] 17-08-2023 21:17:11 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 17-08-2023 21:17:13 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 17-08-2023 21:17:14 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 17-08-2023 21:17:16 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 17-08-2023 21:17:18 [main] Log - Search_07_Advanced_Incorrect_Manufacturer is passed.
+[INFO] 17-08-2023 21:17:20 [main] Log - Search_08_Advanced_Correct_Manufacturer is passed.
+[INFO] 17-08-2023 21:17:21 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:17:26 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 21:17:40 [main] Log - MyAccount_02_Addresses is failed.
+[INFO] 17-08-2023 21:17:51 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 17-08-2023 21:17:54 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 17-08-2023 21:17:55 [main] Log - Finish Suite: Thu Aug 17 21:17:55 ICT 2023
+[INFO] 17-08-2023 21:20:48 [main] Log - Starting Suite: Thu Aug 17 21:20:48 ICT 2023
+[INFO] 17-08-2023 21:21:02 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 21:21:14 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 17-08-2023 21:21:22 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 17-08-2023 21:21:37 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 17-08-2023 21:21:41 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 17-08-2023 21:21:54 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 17-08-2023 21:21:55 [main] Log - Finish Suite: Thu Aug 17 21:21:55 ICT 2023
+[INFO] 17-08-2023 22:52:06 [main] Log - Starting Suite: Thu Aug 17 22:52:06 ICT 2023
+[INFO] 17-08-2023 22:52:15 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 22:52:21 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 22:52:24 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 17-08-2023 22:52:30 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 17-08-2023 22:52:34 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 17-08-2023 22:52:34 [main] Log - Finish Suite: Thu Aug 17 22:52:34 ICT 2023
+[INFO] 17-08-2023 22:53:35 [main] Log - Starting Suite: Thu Aug 17 22:53:34 ICT 2023
+[INFO] 17-08-2023 22:53:42 [main] Log - Run on browser: chrome
+[INFO] 17-08-2023 22:53:48 [main] Log - MyAccount_01_CustomerInfo is passed.
+[INFO] 17-08-2023 22:53:53 [main] Log - MyAccount_02_Addresses is passed.
+[INFO] 17-08-2023 22:54:03 [main] Log - MyAccount_03_ChangePassword is passed.
+[INFO] 17-08-2023 22:54:07 [main] Log - MyAccount_04_MyProductReviews is passed.
+[INFO] 17-08-2023 22:54:08 [main] Log - Finish Suite: Thu Aug 17 22:54:08 ICT 2023
+[INFO] 19-08-2023 16:14:52 [main] Log - Starting Suite: Sat Aug 19 16:14:51 ICT 2023
+[INFO] 19-08-2023 16:15:12 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 16:15:21 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 19-08-2023 16:15:25 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 19-08-2023 16:15:27 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 19-08-2023 16:15:32 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 19-08-2023 16:15:40 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 19-08-2023 16:15:41 [main] Log - Finish Suite: Sat Aug 19 16:15:41 ICT 2023
+[INFO] 19-08-2023 16:16:11 [main] Log - Starting Suite: Sat Aug 19 16:16:11 ICT 2023
+[INFO] 19-08-2023 16:16:20 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 16:16:28 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 19-08-2023 16:16:32 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 19-08-2023 16:16:36 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 19-08-2023 16:16:40 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 19-08-2023 16:17:00 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 19-08-2023 16:17:01 [main] Log - Finish Suite: Sat Aug 19 16:17:01 ICT 2023
+[INFO] 19-08-2023 20:55:35 [main] Log - Starting Suite: Sat Aug 19 20:55:35 ICT 2023
+[INFO] 19-08-2023 20:55:46 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 20:55:55 [main] Log - TC_01_Wishlist_AddToWishList is passed.
+[INFO] 19-08-2023 20:56:04 [main] Log - TC_02_Wishlist_AddToCart is passed.
+[INFO] 19-08-2023 20:56:16 [main] Log - TC_03_Wishlist_RemoveProduct is passed.
+[INFO] 19-08-2023 20:56:21 [main] Log - TC_04_AddProductToCompare is passed.
+[INFO] 19-08-2023 20:56:36 [main] Log - TC_05_RecentlyViewedProducts is passed.
+[INFO] 19-08-2023 20:56:37 [main] Log - Finish Suite: Sat Aug 19 20:56:37 ICT 2023
+[INFO] 19-08-2023 20:57:03 [main] Log - Starting Suite: Sat Aug 19 20:57:02 ICT 2023
+[INFO] 19-08-2023 20:57:11 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 20:57:16 [main] Log - Search_01_EmptyData is passed.
+[INFO] 19-08-2023 20:57:17 [main] Log - Search_02_NotExistData is passed.
+[INFO] 19-08-2023 20:57:20 [main] Log - Search_03_Like_ProductName is passed.
+[INFO] 19-08-2023 20:57:23 [main] Log - Search_04_Equal_ProductName is passed.
+[INFO] 19-08-2023 20:57:24 [main] Log - Search_05_Advanced_ParentCategory is passed.
+[INFO] 19-08-2023 20:57:26 [main] Log - Search_06_Advanced_SubCategory is passed.
+[INFO] 19-08-2023 20:57:28 [main] Log - Search_07_Advanced_Incorrect_Manufacturer is passed.
+[INFO] 19-08-2023 20:57:31 [main] Log - Search_08_Advanced_Correct_Manufacturer is passed.
+[INFO] 19-08-2023 20:57:31 [main] Log - Finish Suite: Sat Aug 19 20:57:31 ICT 2023
+[INFO] 19-08-2023 20:58:54 [main] Log - Starting Suite: Sat Aug 19 20:58:53 ICT 2023
+[INFO] 19-08-2023 20:59:03 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 20:59:17 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 19-08-2023 20:59:19 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 19-08-2023 20:59:30 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 19-08-2023 20:59:42 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 19-08-2023 21:00:05 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 19-08-2023 21:00:06 [main] Log - Finish Suite: Sat Aug 19 21:00:06 ICT 2023
+[INFO] 19-08-2023 21:38:46 [main] Log - Starting Suite: Sat Aug 19 21:38:46 ICT 2023
+[INFO] 19-08-2023 21:38:54 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 21:39:05 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 19-08-2023 21:39:07 [main] Log - TC_02_EditProductInShoppingCart is failed.
+[INFO] 19-08-2023 21:39:15 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 19-08-2023 21:39:15 [main] Log - TC_03_RemoveProductFromCart is failed.
+[INFO] 19-08-2023 21:39:15 [main] Log - Finish Suite: Sat Aug 19 21:39:15 ICT 2023
+[INFO] 19-08-2023 21:39:48 [main] Log - Starting Suite: Sat Aug 19 21:39:47 ICT 2023
+[INFO] 19-08-2023 21:39:56 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 21:40:13 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 19-08-2023 21:40:19 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 19-08-2023 21:40:20 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 19-08-2023 21:40:24 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 19-08-2023 21:40:42 [main] Log - TC_05_Checkout_Order_PaymentCheque is failed.
+[INFO] 19-08-2023 21:40:43 [main] Log - Finish Suite: Sat Aug 19 21:40:43 ICT 2023
+[INFO] 19-08-2023 21:43:04 [main] Log - Starting Suite: Sat Aug 19 21:43:04 ICT 2023
+[INFO] 19-08-2023 21:43:16 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 21:43:25 [main] Log - TC_01_AddProductToCart is passed.
+[INFO] 19-08-2023 21:43:31 [main] Log - TC_02_EditProductInShoppingCart is passed.
+[INFO] 19-08-2023 21:43:33 [main] Log - TC_03_RemoveProductFromCart is passed.
+[INFO] 19-08-2023 21:43:37 [main] Log - TC_04_UpdateShoppingCart is passed.
+[INFO] 19-08-2023 21:43:54 [main] Log - TC_05_Checkout_Order_PaymentCheque is passed.
+[INFO] 19-08-2023 21:43:55 [main] Log - Finish Suite: Sat Aug 19 21:43:55 ICT 2023
+[INFO] 19-08-2023 21:45:16 [main] Log - Starting Suite: Sat Aug 19 21:45:16 ICT 2023
+[INFO] 19-08-2023 21:45:24 [main] Log - Run on browser: chrome
+[INFO] 19-08-2023 21:45:31 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 19-08-2023 21:45:32 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 19-08-2023 21:45:34 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 19-08-2023 21:45:35 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 19-08-2023 21:45:37 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 19-08-2023 21:45:48 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 19-08-2023 21:46:00 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 19-08-2023 21:46:01 [main] Log - Finish Suite: Sat Aug 19 21:46:01 ICT 2023
+[INFO] 25-08-2023 21:58:46 [main] Log - Starting Suite: Fri Aug 25 21:58:45 ICT 2023
+[INFO] 25-08-2023 21:58:56 [main] Log - Run on browser: chrome
+[INFO] 25-08-2023 21:59:00 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 25-08-2023 21:59:01 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 25-08-2023 21:59:03 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 25-08-2023 21:59:05 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 25-08-2023 21:59:07 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 25-08-2023 21:59:18 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 25-08-2023 21:59:30 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 25-08-2023 21:59:31 [main] Log - Finish Suite: Fri Aug 25 21:59:31 ICT 2023
+[INFO] 25-08-2023 22:10:26 [main] Log - Starting Suite: Fri Aug 25 22:10:26 ICT 2023
+[INFO] 25-08-2023 22:10:34 [main] Log - Run on browser: chrome
+[INFO] 25-08-2023 22:10:38 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 25-08-2023 22:10:40 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 25-08-2023 22:10:41 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 25-08-2023 22:10:43 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 25-08-2023 22:10:44 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 25-08-2023 22:10:56 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 25-08-2023 22:11:07 [main] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 25-08-2023 22:11:08 [main] Log - Finish Suite: Fri Aug 25 22:11:08 ICT 2023
+[INFO] 25-08-2023 22:16:59 [main] Log - Starting Suite: Fri Aug 25 22:16:58 ICT 2023
+[INFO] 25-08-2023 22:17:07 [main] Log - Run on browser: chrome
+[INFO] 25-08-2023 22:17:11 [main] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 25-08-2023 22:17:13 [main] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 25-08-2023 22:17:14 [main] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 25-08-2023 22:17:16 [main] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 25-08-2023 22:17:17 [main] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 25-08-2023 22:17:29 [main] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 25-08-2023 22:17:40 [main] Log - Notebooks_07_SortDisplayed_9PerPage is failed.
+[INFO] 25-08-2023 22:17:41 [main] Log - Finish Suite: Fri Aug 25 22:17:41 ICT 2023
