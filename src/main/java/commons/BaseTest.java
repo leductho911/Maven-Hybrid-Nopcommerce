@@ -1,25 +1,17 @@
 package commons;
 
-import exception.BrowserNotSupport;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.firefox.FirefoxOptions;
-import org.openqa.selenium.safari.SafariDriver;
-import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.*;
 import reportConfig.ScreenRecorderUtil;
+import serviceFactory.BrowserStackFactory;
+import serviceFactory.LocalFactory;
 import utils.Environment;
 import utils.Log;
 
 import java.lang.reflect.Method;
 import java.time.Duration;
+import java.util.Objects;
 import java.util.Random;
 
 public class BaseTest {
@@ -51,23 +43,20 @@ public class BaseTest {
 
 
 	@BeforeClass
-	public void beforeClass() {
+	@Parameters({"service", "browser_name", "browser_version", "os", "os_version"})
+	public void beforeClass(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+		Log.info("Run on service: " + serviceName);
+		Log.info("Run on browser: " + browserName);
+
 		String environmentName = System.getProperty("environment");
-		if (environmentName != null) {
-			ConfigFactory.setProperty("env", environmentName);
-		} else {
-			throw new IllegalStateException("'environment' system property is not set.");
-		}
-
-		String browser = System.getProperty("browser");
-		if (browser == null) {
-			browser = "chrome";
-		}
-
-		Log.info("Run on browser: " + browser);
+		ConfigFactory.setProperty("env", Objects.requireNonNullElse(environmentName, "dev"));
+		Log.info("Run on environment: " + environmentName);
 
 		environment = ConfigFactory.create(Environment.class);
-		driver = getBrowserDriver(browser, environment.appUrl());
+		String appUrl = environment.appUrl();
+		Log.info("Run on url: " + appUrl);
+
+		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion);
 
 	}
 
@@ -89,54 +78,25 @@ public class BaseTest {
 		ScreenRecorderUtil.stopRecord();
 	}
 
-	protected WebDriver getBrowserDriver(String browserName, String appUrl) {
-		BrowserList browser = BrowserList.valueOf(browserName.toUpperCase());
 
-		switch (browser) {
-			case FIREFOX:
-				WebDriverManager.firefoxdriver().setup();
-				driver = new FirefoxDriver();
+	protected WebDriver getBrowserDriver(String serviceName, String browserName, String browserVersion, String appUrl, String osName, String osVersion) {
+
+		switch (serviceName) {
+			case "local":
+				driver = new LocalFactory().createDriver(browserName, appUrl);
 				break;
-			case CHROME:
-				WebDriverManager.chromedriver().setup();
-				ChromeOptions options2 = new ChromeOptions();
-				options2.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
-				driver = new ChromeDriver(options2);
-				break;
-			case EDGE:
-				WebDriverManager.edgedriver().arch64().setup();
-				driver = new EdgeDriver();
-				break;
-			case IE:
-				WebDriverManager.iedriver().arch64().setup();
-				driver = new EdgeDriver();
-				break;
-			case SAFARI:
-				driver = new SafariDriver();
-				break;
-			case CHROME_HEADLESS:
-				WebDriverManager.chromedriver().setup();
-				ChromeOptions options = new ChromeOptions();
-				options.addArguments("headless");
-				options.addArguments("window-size=1920x1080");
-				driver = new ChromeDriver(options);
-				break;
-			case FIREFOX_HEADLESS:
-				WebDriverManager.firefoxdriver().setup();
-				FirefoxOptions options1 = new FirefoxOptions();
-				options1.addArguments("--headless");
-				options1.addArguments("window-size=1920x1080");
-				driver = new FirefoxDriver(options1);
+			case "browserstack":
+				driver = new BrowserStackFactory().createDriver(browserName, browserVersion, appUrl, osName, osVersion);
 				break;
 			default:
-				throw new BrowserNotSupport(browserName);
+				throw new IllegalArgumentException("Invalid service name: " + serviceName);
 		}
 
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
-		driver.get(appUrl);
 		driver.manage().window().maximize();
 		return driver;
 	}
+
 
 	protected int randomNumber() {
 		Random rand = new Random();

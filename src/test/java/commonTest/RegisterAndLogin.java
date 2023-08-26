@@ -5,12 +5,14 @@ import commons.PageGeneratorManager;
 import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Cookie;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
 import pageObjects.HomePageObj;
 import pageObjects.LoginPageObj;
 import pageObjects.RegisterPageObj;
 import utils.DataFaker;
 import utils.Environment;
 
+import java.util.Objects;
 import java.util.Set;
 
 import static org.testng.Assert.assertEquals;
@@ -19,27 +21,26 @@ import static org.testng.Assert.assertTrue;
 public class RegisterAndLogin extends BaseTest {
 	public static Set<Cookie> loginCookies;
 	public static String email, password, firstName, lastName;
+	Environment environment;
 	private HomePageObj homePage;
 	private RegisterPageObj registerPage;
 	private LoginPageObj loginPage;
 	private DataFaker dataFaker;
 
 	@BeforeTest
-	public void Register_And_Login() {
+	public void Register_And_Login(@Optional("local") String serviceName, @Optional("116") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion) {
 		String environmentName = System.getProperty("environment");
-		if (environmentName != null) {
-			ConfigFactory.setProperty("env", environmentName);
-		} else {
-			throw new IllegalStateException("'environment' system property is not set.");
-		}
+		ConfigFactory.setProperty("env", Objects.requireNonNullElse(environmentName, "dev"));
+
 
 		String browser = System.getProperty("browser");
 		if (browser == null) {
 			browser = "chrome";
 		}
 
-		Environment environment = ConfigFactory.create(Environment.class);
-		driver = getBrowserDriver(browser, environment.appUrl());
+		environment = ConfigFactory.create(Environment.class);
+		String appUrl = environment.appUrl();
+		driver = getBrowserDriver(serviceName, browser, browserVersion, appUrl, osName, osVersion);
 
 		dataFaker = DataFaker.getDataFaker();
 		firstName = dataFaker.getFirstName();

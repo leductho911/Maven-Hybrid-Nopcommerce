@@ -4,36 +4,41 @@ import commons.BaseTest;
 import commons.PageGeneratorManager;
 import org.aeonbits.owner.ConfigFactory;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import pageObjects.HomePageObj;
 import pageObjects.RegisterPageObj;
 import utils.DataFaker;
 import utils.Environment;
+import utils.Log;
+
+import java.util.Objects;
 
 import static org.testng.Assert.assertEquals;
 
 public class RegisterOnly extends BaseTest {
 	public static String email, password;
+	Environment environment;
 	private HomePageObj homePage;
 	private RegisterPageObj registerPage;
 	private String firstName, lastName;
 	private DataFaker dataFaker;
 
 	@BeforeTest
-	public void Register_User() {
+	@Parameters({"service", "browser_name", "browser_version", "os", "os_version"})
+	public void Register_User(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+		Log.info("Run on service: " + serviceName);
+		Log.info("Run on browser: " + browserName);
+
 		String environmentName = System.getProperty("environment");
-		if (environmentName != null) {
-			ConfigFactory.setProperty("env", environmentName);
-		} else {
-			throw new IllegalStateException("'environment' system property is not set.");
-		}
+		ConfigFactory.setProperty("env", Objects.requireNonNullElse(environmentName, "dev"));
+		Log.info("Run on environment: " + environmentName);
 
-		String browser = System.getProperty("browser");
-		if (browser == null) {
-			browser = "chrome";
-		}
+		environment = ConfigFactory.create(Environment.class);
+		String appUrl = environment.appUrl();
+		Log.info("Run on url: " + appUrl);
 
-		Environment environment = ConfigFactory.create(Environment.class);
-		driver = getBrowserDriver(browser, environment.appUrl());
+		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion);
 
 		dataFaker = DataFaker.getDataFaker();
 		firstName = dataFaker.getFirstName();

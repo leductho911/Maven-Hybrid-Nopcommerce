@@ -9,10 +9,14 @@
 
 
     <test name="Regression Test" preserve-order="true">
+        <parameter name="service" value="local"/>
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="10"/>
+        <parameter name="browser_name" value="Chrome"/>
+        <parameter name="browser_version" value="latest"/>
         <classes>
-            <class name="commonTest.RegisterAndLogin"/>
-            <class name="user.Notebooks"/>
-
+            <class name="commonTest.RegisterOnly"/>
+            <class name="user.Login"/>
         </classes>
     </test>
 
