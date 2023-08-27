@@ -2,21 +2,33 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite parallel="false" name="NopCommerce project">
 
+    <parameter name="service" value="grid"/>
+    <parameter name="os_version" value="10"/>
+    <parameter name="os" value="Windows"/>
 
     <listeners>
         <listener class-name="reportConfig.AllureTestListener"/>
     </listeners>
 
 
-    <test name="Regression Test" preserve-order="true">
-        <parameter name="service" value="local"/>
-        <parameter name="os" value="Windows"/>
-        <parameter name="os_version" value="10"/>
+    <test name="Chrome Test" preserve-order="true">
         <parameter name="browser_name" value="Chrome"/>
-        <parameter name="browser_version" value="latest"/>
+        <!--        <parameter name="browser_version" value="116.0.5845.111"/>-->
+        <parameter name="ip_address" value="localhost"/>
+        <parameter name="port" value="4444"/>
         <classes>
-            <class name="commonTest.RegisterOnly"/>
-            <class name="user.Login"/>
+            <class name="user.Notebooks"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Test" preserve-order="true">
+        <parameter name="os_version" value="10"/>
+        <parameter name="browser_name" value="Firefox"/>
+        <!--        <parameter name="browser_version" value="116.0.3"/>-->
+        <parameter name="ip_address" value="localhost"/>
+        <parameter name="port" value="4444"/>
+        <classes>
+            <class name="user.Notebooks"/>
         </classes>
     </test>
 
