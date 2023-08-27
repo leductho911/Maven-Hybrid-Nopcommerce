@@ -15,6 +15,7 @@ import java.util.Objects;
 import java.util.Random;
 
 public class BaseTest {
+	protected ThreadLocal<WebDriver> driverThreadLocal = new ThreadLocal<WebDriver>();
 	protected WebDriver driver;
 	Environment environment;
 
@@ -38,7 +39,7 @@ public class BaseTest {
 	}
 
 	public WebDriver getDriverInstance() {
-		return this.driver;
+		return this.driverThreadLocal.get();
 	}
 
 
@@ -62,8 +63,9 @@ public class BaseTest {
 
 	@AfterClass(alwaysRun = true)
 	public void afterClass() {
-		if (driver != null) {
-			driver.quit();
+		if (driverThreadLocal != null) {
+			driverThreadLocal.get().quit();
+			driverThreadLocal.remove();
 		}
 	}
 
@@ -83,18 +85,19 @@ public class BaseTest {
 
 		switch (serviceName) {
 			case "local":
-				driver = new LocalFactory().createDriver(browserName, appUrl);
+				driverThreadLocal.set(new LocalFactory().createDriver(browserName, appUrl));
 				break;
 			case "browserstack":
-				driver = new BrowserStackFactory().createDriver(browserName, browserVersion, appUrl, osName, osVersion);
+				driverThreadLocal.set(new BrowserStackFactory().createDriver(browserName, browserVersion, appUrl, osName, osVersion));
 				break;
 			default:
 				throw new IllegalArgumentException("Invalid service name: " + serviceName);
 		}
 
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
-		driver.manage().window().maximize();
-		return driver;
+		driverThreadLocal.get().manage().timeouts().implicitlyWait(Duration.ofSeconds(GlobalConstants.LONG_TIMEOUT));
+		driverThreadLocal.get().manage().window().maximize();
+		System.out.println(driverThreadLocal);
+		return driverThreadLocal.get();
 	}
 
 
