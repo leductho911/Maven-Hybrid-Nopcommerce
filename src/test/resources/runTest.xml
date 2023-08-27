@@ -15,8 +15,7 @@
         <parameter name="browser_name" value="Chrome"/>
         <parameter name="browser_version" value="latest"/>
         <classes>
-            <class name="commonTest.RegisterOnly"/>
-            <class name="user.Login"/>
+            <class name="user.Notebooks"/>
         </classes>
     </test>
 
@@ -27,8 +26,7 @@
         <parameter name="browser_name" value="Firefox"/>
         <parameter name="browser_version" value="latest"/>
         <classes>
-            <class name="commonTest.RegisterOnly"/>
-            <class name="user.Login"/>
+            <class name="user.Notebooks"/>
         </classes>
     </test>
 

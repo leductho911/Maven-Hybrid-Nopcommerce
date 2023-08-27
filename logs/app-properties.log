@@ -236,3 +236,31 @@
 [INFO] 26-08-2023 22:22:56 [main] Log - Login_06_LoginSuccess is passed.
 [INFO] 26-08-2023 22:22:57 [main] Log - Finish Suite: Sat Aug 26 22:22:57 ICT 2023
 [INFO] 26-08-2023 22:22:57 [main] Log - ----------------------------
+[INFO] 27-08-2023 22:16:43 [TestNG-tests-2] Log - Starting Suite: Sun Aug 27 22:16:43 ICT 2023
+[INFO] 27-08-2023 22:16:43 [TestNG-tests-1] Log - Starting Suite: Sun Aug 27 22:16:43 ICT 2023
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-2] Log - Run on service: local
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-1] Log - Run on service: local
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-2] Log - Run on browser: Firefox
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-1] Log - Run on browser: Chrome
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-1] Log - Run on environment: staging
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-2] Log - Run on environment: staging
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-1] Log - Run on url: https://demo.nopcommerce.com/
+[INFO] 27-08-2023 22:16:44 [TestNG-tests-2] Log - Run on url: https://demo.nopcommerce.com/
+[INFO] 27-08-2023 22:16:51 [TestNG-tests-1] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 27-08-2023 22:16:53 [TestNG-tests-1] Log - Notebooks_02_SortWithName_ZtoA is passed.
+[INFO] 27-08-2023 22:16:53 [TestNG-tests-2] Log - Notebooks_01_SortWithName_AtoZ is passed.
+[INFO] 27-08-2023 22:16:53 [TestNG-tests-2] Log - Notebooks_02_SortWithName_ZtoA is skipped.
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-2] Log - Notebooks_03_SortWithPrice_LowtoHigh is skipped.
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-2] Log - Notebooks_04_SortWithPrice_HightoLow is skipped.
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-2] Log - Notebooks_05_SortDisplayed_3PerPage is skipped.
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-2] Log - Notebooks_06_SortDisplayed_6PerPage is skipped.
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-2] Log - Notebooks_07_SortDisplayed_9PerPage is skipped.
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-1] Log - Notebooks_03_SortWithPrice_LowtoHigh is passed.
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-2] Log - Finish Suite: Sun Aug 27 22:16:54 ICT 2023
+[INFO] 27-08-2023 22:16:54 [TestNG-tests-2] Log - ----------------------------
+[INFO] 27-08-2023 22:16:56 [TestNG-tests-1] Log - Notebooks_04_SortWithPrice_HightoLow is passed.
+[INFO] 27-08-2023 22:16:58 [TestNG-tests-1] Log - Notebooks_05_SortDisplayed_3PerPage is passed.
+[INFO] 27-08-2023 22:17:10 [TestNG-tests-1] Log - Notebooks_06_SortDisplayed_6PerPage is passed.
+[INFO] 27-08-2023 22:17:21 [TestNG-tests-1] Log - Notebooks_07_SortDisplayed_9PerPage is passed.
+[INFO] 27-08-2023 22:17:22 [TestNG-tests-1] Log - Finish Suite: Sun Aug 27 22:17:22 ICT 2023
+[INFO] 27-08-2023 22:17:22 [TestNG-tests-1] Log - ----------------------------
