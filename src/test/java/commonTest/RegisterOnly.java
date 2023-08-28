@@ -25,7 +25,7 @@ public class RegisterOnly extends BaseTest {
 	private DataFaker dataFaker;
 
 	@BeforeTest
-	@Parameters({"service", "browser_name", "browser_version", "os", "os_version", "ip_address", "port"})
+	@Parameters({"service", "browser_name", "browser_version", "os", "os_version"})
 	public void Register_User(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion, @Optional("localhost") String ipAddress, @Optional("4444") String port) {
 		Log.info("Run on service: " + serviceName);
 		Log.info("Run on browser: " + browserName);
@@ -38,7 +38,7 @@ public class RegisterOnly extends BaseTest {
 		String appUrl = environment.appUrl();
 		Log.info("Run on url: " + appUrl);
 
-		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion, ipAddress, port);
+		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion);
 
 		dataFaker = DataFaker.getDataFaker();
 		firstName = dataFaker.getFirstName();
