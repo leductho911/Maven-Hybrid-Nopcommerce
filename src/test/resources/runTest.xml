@@ -2,9 +2,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 <suite parallel="false" name="NopCommerce project">
 
-    <parameter name="service" value="grid"/>
-    <parameter name="os_version" value="10"/>
-    <parameter name="os" value="Windows"/>
 
     <listeners>
         <listener class-name="reportConfig.AllureTestListener"/>
@@ -12,21 +9,23 @@
 
 
     <test name="Chrome Test" preserve-order="true">
+        <parameter name="service" value="local"/>
         <parameter name="browser_name" value="Chrome"/>
-        <!--        <parameter name="browser_version" value="116.0.5845.111"/>-->
+        <parameter name="browser_version" value="115.0"/>
         <parameter name="ip_address" value="localhost"/>
-        <parameter name="port" value="4444"/>
+        <parameter name="port" value="4445"/>
+
         <classes>
             <class name="user.Notebooks"/>
         </classes>
     </test>
 
     <test name="Firefox Test" preserve-order="true">
-        <parameter name="os_version" value="10"/>
+        <parameter name="service" value="local"/>
         <parameter name="browser_name" value="Firefox"/>
-        <!--        <parameter name="browser_version" value="116.0.3"/>-->
+        <parameter name="browser_version" value="116.0"/>
         <parameter name="ip_address" value="localhost"/>
-        <parameter name="port" value="4444"/>
+        <parameter name="port" value="4446"/>
         <classes>
             <class name="user.Notebooks"/>
         </classes>

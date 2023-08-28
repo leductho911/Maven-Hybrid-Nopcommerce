@@ -1,7 +1,6 @@
 package serviceFactory;
 
 import commons.BrowserList;
-import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxOptions;
@@ -16,36 +15,32 @@ public class GridFactory {
 	public WebDriver createDriver(String browserName, String osName, String browserVersion, String ipAddress, String port, String appUrl) {
 		BrowserList browser = BrowserList.valueOf(browserName.toUpperCase());
 
-		URL remoteAddress;
+		URL remoteAddress = null;
 		try {
-			remoteAddress = new URL(String.format("http://%s:%s/wd/hub", ipAddress, port));
+			remoteAddress = new URL(String.format("http://%s:%s", ipAddress, port));
 		} catch (MalformedURLException e) {
 			throw new RuntimeException(e);
 		}
-
 		switch (browser) {
 			case FIREFOX:
-				WebDriverManager.firefoxdriver().setup();
 				FirefoxOptions firefoxOptions = new FirefoxOptions();
 //				firefoxOptions.setCapability("browserVersion", browserVersion);
-				firefoxOptions.setCapability("platformName", osName);
-				firefoxOptions.setCapability("se:name", "My simple test");
-				firefoxOptions.setCapability("se:sampleMetadata", "Sample metadata value");
+//				firefoxOptions.setCapability("platformName", "linux");
+//				firefoxOptions.setCapability("browserVersion", "116.0");
+//				firefoxOptions.setCapability("browserName", browserName);
 				driver = new RemoteWebDriver(remoteAddress, firefoxOptions);
 				break;
 			case CHROME:
-				WebDriverManager.chromedriver().setup();
 				ChromeOptions chromeOptions = new ChromeOptions();
 //				chromeOptions.setCapability("browserVersion", browserVersion);
-				chromeOptions.setCapability("platformName", osName);
-				chromeOptions.setCapability("se:name", "My simple test");
-				chromeOptions.setCapability("se:sampleMetadata", "Sample metadata value");
+//				chromeOptions.setCapability("platformName", "linux");
+//				chromeOptions.setCapability("browserVersion", "115.0");
+//				chromeOptions.setCapability("browserName", browserName);
 				driver = new RemoteWebDriver(remoteAddress, chromeOptions);
 				break;
 			default:
 				throw new RuntimeException("Please input valid browser name value!");
 		}
-
 		driver.get(appUrl);
 		return driver;
 	}

@@ -69,14 +69,21 @@ public class BaseTest {
 	}
 
 	@BeforeMethod
-	public void beforeMethod(Method method) throws Exception {
-		ScreenRecorderUtil.startRecord(method.getName());
+	@Parameters({"service"})
+	public void beforeMethod(String serviceName, Method method) throws Exception {
+		if (Objects.equals(serviceName, "local")) {
+			ScreenRecorderUtil.startRecord(method.getName());
+		}
 	}
 
 	@AfterMethod
-	public void afterMethod() throws Exception {
-		sleepInMilisecond(500);
-		ScreenRecorderUtil.stopRecord();
+	@Parameters({"service"})
+	public void afterMethod(String serviceName) throws Exception {
+		if (Objects.equals(serviceName, "local")) {
+			sleepInMilisecond(500);
+			ScreenRecorderUtil.stopRecord();
+		}
+
 	}
 
 
@@ -91,6 +98,7 @@ public class BaseTest {
 				break;
 			case "grid":
 				driver = new GridFactory().createDriver(browserName, osName, browserVersion, ipAddress, port, appUrl);
+				break;
 			default:
 				throw new IllegalArgumentException("Invalid service name: " + serviceName);
 		}
