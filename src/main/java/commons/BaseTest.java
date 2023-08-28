@@ -5,6 +5,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.*;
 import reportConfig.ScreenRecorderUtil;
 import serviceFactory.BrowserStackFactory;
+import serviceFactory.GridFactory;
 import serviceFactory.LocalFactory;
 import utils.Environment;
 import utils.Log;
@@ -43,8 +44,8 @@ public class BaseTest {
 
 
 	@BeforeClass
-	@Parameters({"service", "browser_name", "browser_version", "os", "os_version"})
-	public void beforeClass(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+	@Parameters({"service", "browser_name", "browser_version", "os", "os_version", "ip_address", "port"})
+	public void beforeClass(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion, @Optional("localhost") String ipAddress, @Optional("4444") String port) {
 		Log.info("Run on service: " + serviceName);
 		Log.info("Run on browser: " + browserName);
 
@@ -56,7 +57,7 @@ public class BaseTest {
 		String appUrl = environment.appUrl();
 		Log.info("Run on url: " + appUrl);
 
-		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion);
+		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion, ipAddress, port);
 
 	}
 
@@ -68,18 +69,25 @@ public class BaseTest {
 	}
 
 	@BeforeMethod
-	public void beforeMethod(Method method) throws Exception {
-		ScreenRecorderUtil.startRecord(method.getName());
+	@Parameters({"service"})
+	public void beforeMethod(String serviceName, Method method) throws Exception {
+		if (Objects.equals(serviceName, "local")) {
+			ScreenRecorderUtil.startRecord(method.getName());
+		}
 	}
 
 	@AfterMethod
-	public void afterMethod() throws Exception {
-		sleepInMilisecond(500);
-		ScreenRecorderUtil.stopRecord();
+	@Parameters({"service"})
+	public void afterMethod(String serviceName) throws Exception {
+		if (Objects.equals(serviceName, "local")) {
+			sleepInMilisecond(500);
+			ScreenRecorderUtil.stopRecord();
+		}
+
 	}
 
 
-	protected WebDriver getBrowserDriver(String serviceName, String browserName, String browserVersion, String appUrl, String osName, String osVersion) {
+	protected WebDriver getBrowserDriver(String serviceName, String browserName, String browserVersion, String appUrl, String osName, String osVersion, String ipAddress, String port) {
 
 		switch (serviceName) {
 			case "local":
@@ -87,6 +95,9 @@ public class BaseTest {
 				break;
 			case "browserstack":
 				driver = new BrowserStackFactory().createDriver(browserName, browserVersion, appUrl, osName, osVersion);
+				break;
+			case "grid":
+				driver = new GridFactory().createDriver(browserName, osName, browserVersion, ipAddress, port, appUrl);
 				break;
 			default:
 				throw new IllegalArgumentException("Invalid service name: " + serviceName);

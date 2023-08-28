@@ -6,6 +6,7 @@ import org.aeonbits.owner.ConfigFactory;
 import org.openqa.selenium.Cookie;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import pageObjects.HomePageObj;
 import pageObjects.LoginPageObj;
 import pageObjects.RegisterPageObj;
@@ -28,7 +29,8 @@ public class RegisterAndLogin extends BaseTest {
 	private DataFaker dataFaker;
 
 	@BeforeTest
-	public void Register_And_Login(@Optional("local") String serviceName, @Optional("116") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion) {
+	@Parameters({"service", "browser_name", "browser_version", "os", "os_version", "ip_address", "port"})
+	public void Register_And_Login(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion, @Optional("localhost") String ipAddress, @Optional("4444") String port) {
 		String environmentName = System.getProperty("environment");
 		ConfigFactory.setProperty("env", Objects.requireNonNullElse(environmentName, "dev"));
 
@@ -40,7 +42,7 @@ public class RegisterAndLogin extends BaseTest {
 
 		environment = ConfigFactory.create(Environment.class);
 		String appUrl = environment.appUrl();
-		driver = getBrowserDriver(serviceName, browser, browserVersion, appUrl, osName, osVersion);
+		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion, ipAddress, port);
 
 		dataFaker = DataFaker.getDataFaker();
 		firstName = dataFaker.getFirstName();

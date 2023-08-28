@@ -8,15 +8,26 @@
     </listeners>
 
 
-    <test name="Regression Test" preserve-order="true">
+    <test name="Chrome Test" preserve-order="true">
         <parameter name="service" value="local"/>
-        <parameter name="os" value="Windows"/>
-        <parameter name="os_version" value="10"/>
         <parameter name="browser_name" value="Chrome"/>
-        <parameter name="browser_version" value="latest"/>
+        <parameter name="browser_version" value="115.0"/>
+        <parameter name="ip_address" value="localhost"/>
+        <parameter name="port" value="4445"/>
+
         <classes>
-            <class name="commonTest.RegisterOnly"/>
-            <class name="user.Login"/>
+            <class name="user.Notebooks"/>
+        </classes>
+    </test>
+
+    <test name="Firefox Test" preserve-order="true">
+        <parameter name="service" value="local"/>
+        <parameter name="browser_name" value="Firefox"/>
+        <parameter name="browser_version" value="116.0"/>
+        <parameter name="ip_address" value="localhost"/>
+        <parameter name="port" value="4446"/>
+        <classes>
+            <class name="user.Notebooks"/>
         </classes>
     </test>
 
