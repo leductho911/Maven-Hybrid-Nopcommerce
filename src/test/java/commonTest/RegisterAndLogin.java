@@ -29,7 +29,7 @@ public class RegisterAndLogin extends BaseTest {
 	private DataFaker dataFaker;
 
 	@BeforeTest
-	@Parameters({"service", "browser_name", "browser_version", "os", "os_version", "ip_address", "port"})
+	@Parameters({"service", "browser_name", "browser_version", "os", "os_version"})
 	public void Register_And_Login(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion, @Optional("localhost") String ipAddress, @Optional("4444") String port) {
 		String environmentName = System.getProperty("environment");
 		ConfigFactory.setProperty("env", Objects.requireNonNullElse(environmentName, "dev"));
@@ -42,7 +42,7 @@ public class RegisterAndLogin extends BaseTest {
 
 		environment = ConfigFactory.create(Environment.class);
 		String appUrl = environment.appUrl();
-		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion, ipAddress, port);
+		driver = getBrowserDriver(serviceName, browserName, browserVersion, appUrl, osName, osVersion);
 
 		dataFaker = DataFaker.getDataFaker();
 		firstName = dataFaker.getFirstName();
