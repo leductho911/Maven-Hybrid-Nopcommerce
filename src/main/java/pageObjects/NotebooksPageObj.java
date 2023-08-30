@@ -13,13 +13,11 @@ public class NotebooksPageObj extends BasePage {
 		this.driver = driver;
 	}
 
-
 	@Step("Select Sort by: {0}")
 	public void selectSortBy(String value) {
 		waitForElementVisible(NotebooksPageUI.SORT_BY_DROPDOWN);
 		selectItemInDefaultDropdown(NotebooksPageUI.SORT_BY_DROPDOWN, value);
 	}
-
 
 	@Step("Verify product name is sorted from A to Z")
 	public boolean isProductSortByNameAsc() {
@@ -53,7 +51,7 @@ public class NotebooksPageObj extends BasePage {
 	public boolean isMaxProductsOnPage(int maxProductsAllowed) {
 		waitForElementInvisible(NotebooksPageUI.PRODUCT_LOADING_ICON);
 		waitForElementVisible(NotebooksPageUI.PRODUCT_TITLES);
-		return getListWebElement(NotebooksPageUI.PRODUCT_TITLES).size() <= maxProductsAllowed;
+		return getElementSize(NotebooksPageUI.PRODUCT_TITLES) <= maxProductsAllowed;
 	}
 
 	@Step("Select display: {0}")

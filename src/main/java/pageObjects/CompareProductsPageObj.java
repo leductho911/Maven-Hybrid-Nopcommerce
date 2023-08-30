@@ -10,6 +10,4 @@ public class CompareProductsPageObj extends BasePage {
 		super(driver);
 		this.driver = driver;
 	}
-
-
 }

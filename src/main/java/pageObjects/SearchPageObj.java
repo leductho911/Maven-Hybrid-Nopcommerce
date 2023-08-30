@@ -34,12 +34,9 @@ public class SearchPageObj extends BasePage {
 		return getElementSize(SearchPageUI.RESULT_PRODUCTS);
 	}
 
-
 	@Step("Verify Search result: verify search result has keyword: {0}")
 	public boolean isSearchResultContainsTheSearchKeyword(String searchKeyword) {
 		List<WebElement> searchResults = getListWebElement(SearchPageUI.RESULT_PRODUCTNAME);
-		return searchResults.stream()
-				.anyMatch(result -> result.getText().toLowerCase().contains(searchKeyword.toLowerCase()));
+		return isKeywordDisplayedInList(searchResults, searchKeyword);
 	}
-
 }

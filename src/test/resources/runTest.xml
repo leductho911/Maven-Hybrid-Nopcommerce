@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite parallel="tests" name="NopCommerce project" thread-count="3">
+<suite parallel="false" name="NopCommerce project" thread-count="3">
 
-    <parameter name="service" value="grid"/>
+    <parameter name="service" value="local"/>
 
     <listeners>
         <listener class-name="reportConfig.AllureTestListener"/>
@@ -11,22 +11,25 @@
     <test name="Chrome Test" preserve-order="true">
         <parameter name="browser_name" value="Chrome"/>
         <classes>
+            <!--            <class name="commonTest.RegisterAndLogin"/>-->
             <class name="user.Notebooks"/>
         </classes>
     </test>
 
-    <test name="Firefox Test" preserve-order="true">
-        <parameter name="browser_name" value="Firefox"/>
-        <classes>
-            <class name="user.Notebooks"/>
-        </classes>
-    </test>
+    <!--    <test name="Firefox Test" preserve-order="true">-->
+    <!--        <parameter name="browser_name" value="Firefox"/>-->
+    <!--        <classes>-->
+    <!--            <class name="commonTest.RegisterAndLogin"/>-->
+    <!--            <class name="user.MyAccount"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 
-    <test name="Edge Test" preserve-order="true">
-        <parameter name="browser_name" value="Edge"/>
-        <classes>
-            <class name="user.Notebooks"/>
-        </classes>
-    </test>
+    <!--    <test name="Edge Test" preserve-order="true">-->
+    <!--        <parameter name="browser_name" value="Edge"/>-->
+    <!--        <classes>-->
+    <!--            <class name="commonTest.RegisterAndLogin"/>-->
+    <!--            <class name="user.MyAccount"/>-->
+    <!--        </classes>-->
+    <!--    </test>-->
 
 </suite>

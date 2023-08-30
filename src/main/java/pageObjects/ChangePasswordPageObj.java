@@ -1,9 +1,7 @@
 package pageObjects;
 
 import commons.BasePage;
-import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
-import pageUIs.ChangePasswordPageUI;
 
 public class ChangePasswordPageObj extends BasePage {
 	private WebDriver driver;
@@ -12,5 +10,4 @@ public class ChangePasswordPageObj extends BasePage {
 		super(driver);
 		this.driver = driver;
 	}
-
 }

@@ -26,7 +26,7 @@ public class RegisterOnly extends BaseTest {
 
 	@BeforeTest
 	@Parameters({"service", "browser_name", "browser_version", "os", "os_version"})
-	public void Register_User(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion, @Optional("localhost") String ipAddress, @Optional("4444") String port) {
+	public void Register_User(@Optional("local") String serviceName, @Optional("Chrome") String browserName, @Optional("latest") String browserVersion, @Optional("Windows") String osName, @Optional("10") String osVersion) {
 		Log.info("Run on service: " + serviceName);
 		Log.info("Run on browser: " + browserName);
 

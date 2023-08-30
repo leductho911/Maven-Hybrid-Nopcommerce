@@ -10,5 +10,4 @@ public class OrdersPageObj extends BasePage {
 		super(driver);
 		this.driver = driver;
 	}
-
 }
