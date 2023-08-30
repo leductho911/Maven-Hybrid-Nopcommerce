@@ -226,8 +226,7 @@ public class BasePage {
 		return select.isMultiple();
 	}
 
-	public void selectItemInCustomDropdown(String parentXpath, String allItemsXPath,
-	                                       String expectedTextItem) {
+	public void selectItemInCustomDropdown(String parentXpath, String allItemsXPath, String expectedTextItem) {
 		getWebElement(parentXpath).click();
 		WebDriverWait explicitWait = new WebDriverWait(driver, Duration.ofSeconds(longTimeout), Duration.ofMillis(500));
 
@@ -579,7 +578,7 @@ public class BasePage {
 		return names.equals(sortedNames);
 	}
 
-	public boolean isDataSortByNameDesc(String locatorType) {
+	public Boolean isDataSortByNameDesc(String locatorType) {
 		List<WebElement> elementList = getListWebElement(locatorType);
 		List<String> names = elementList.stream()
 				.map(WebElement::getText)
@@ -589,7 +588,7 @@ public class BasePage {
 		return names.equals(sortedNames);
 	}
 
-	public boolean isDataFloatSortedAsc(String locatorType) {
+	public Boolean isDataFloatSortedAsc(String locatorType) {
 		ArrayList<Float> arrayList = new ArrayList<Float>();
 		List<WebElement> elementList = getListWebElement(locatorType);
 
@@ -607,7 +606,7 @@ public class BasePage {
 		return sortedList.equals(arrayList);
 	}
 
-	public boolean isDataFloatSortedDesc(String locatorType) {
+	public Boolean isDataFloatSortedDesc(String locatorType) {
 		ArrayList<Float> arrayList = new ArrayList<Float>();
 		List<WebElement> elementList = getListWebElement(locatorType);
 
@@ -636,7 +635,7 @@ public class BasePage {
 	}
 
 
-	@Step("Click to '{0}' link at Header")
+	@Step("Click to '{0}' link at Footer")
 	public void clickToLinkAtFooter(String linkText) {
 		waitForElementClickable(BasePageUI.FOOTER_LINKS, linkText);
 		clickToElement(BasePageUI.FOOTER_LINKS, linkText);
@@ -674,7 +673,7 @@ public class BasePage {
 	}
 
 	@Step("Verify 'Homepage' is displayed")
-	public boolean isHomepageDisplayed() {
+	public Boolean isHomepageDisplayed() {
 		waitForElementVisible(HomePageUI.WELCOME_TEXT);
 		return isElementDisplayed(HomePageUI.WELCOME_TEXT);
 	}
@@ -739,7 +738,7 @@ public class BasePage {
 	}
 
 	@Step("Verify page {0} is displayed")
-	public boolean isPageDisplayed(String pageName) {
+	public Boolean isPageDisplayed(String pageName) {
 		return isElementDisplayed(BasePageUI.PAGE_TITLE, pageName);
 	}
 
@@ -804,6 +803,11 @@ public class BasePage {
 	@Step("Press {1} on keyboard")
 	public void pressKeyOnKeyboardToAnElement(String id, String key) {
 		pressKeyToElement(BasePageUI.ELEMENT_BY_ID, Keys.valueOf(key), id);
+	}
+
+	protected boolean isKeywordDisplayedInList(List<WebElement> elements, String keyword) {
+		return elements.stream()
+				.anyMatch(element -> element.getText().toLowerCase().contains(keyword.toLowerCase()));
 	}
 }
 

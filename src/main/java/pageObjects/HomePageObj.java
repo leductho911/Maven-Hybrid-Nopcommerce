@@ -10,6 +10,4 @@ public class HomePageObj extends BasePage {
 		super(driver);
 		this.driver = driver;
 	}
-
-
 }

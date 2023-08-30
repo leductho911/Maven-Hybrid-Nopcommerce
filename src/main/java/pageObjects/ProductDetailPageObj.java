@@ -21,7 +21,6 @@ public class ProductDetailPageObj extends BasePage {
 		return PageGeneratorManager.getProductReviewPage(driver);
 	}
 
-
 	@Step("Select Processor : {0}")
 	public void selectProcessor(String processor) {
 		waitForElementClickable(ProductDetailPageUI.PROCESSOR_SELECT);

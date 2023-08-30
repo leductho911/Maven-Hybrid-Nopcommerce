@@ -10,6 +10,4 @@ public class RecentlyViewedProductsPageObj extends BasePage {
 		super(driver);
 		this.driver = driver;
 	}
-
-
 }

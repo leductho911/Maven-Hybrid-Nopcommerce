@@ -7,7 +7,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import pageUIs.WishListPageUI;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class WishListPageObj extends BasePage {
@@ -16,16 +15,6 @@ public class WishListPageObj extends BasePage {
 	public WishListPageObj(WebDriver driver) {
 		super(driver);
 		this.driver = driver;
-	}
-
-
-	public List<String> getProductNamesAtWishListPage() {
-		List<WebElement> listWebElement = getListWebElement(WishListPageUI.PRODUCT_NAME);
-		List<String> stringArrayList = new ArrayList<>();
-		for (WebElement webElement : listWebElement) {
-			stringArrayList.add(webElement.getText());
-		}
-		return stringArrayList;
 	}
 
 	@Step("Click to Share link at WishList Page")
@@ -55,7 +44,6 @@ public class WishListPageObj extends BasePage {
 				.anyMatch(element -> element.getText().toLowerCase().contains(productName.toLowerCase()));
 	}
 
-
 	@Step("Verify product '{0}' is not displayed at Wishlist page")
 	public boolean isProductNotDisplayedAtWishlistPage(String productName) {
 		overrideImplicitTimeout(GlobalConstants.SHORT_TIMEOUT);
@@ -69,6 +57,4 @@ public class WishListPageObj extends BasePage {
 	public void clickToRemoveButtonByProductName(String productName) {
 		clickToElement(WishListPageUI.REMOVE_BUTTON, productName);
 	}
-
-
 }

@@ -9,16 +9,13 @@ public class PageGeneratorManager {
 		return new HomePageObj(driver);
 	}
 
-
 	public static RegisterPageObj getRegisterPage(WebDriver driver) {
 		return new RegisterPageObj(driver);
 	}
 
-
 	public static LoginPageObj getLoginPage(WebDriver driver) {
 		return new LoginPageObj(driver);
 	}
-
 
 	public static CustomerInfoPageObj getCustomerInfoPage(WebDriver driver) {
 		return new CustomerInfoPageObj(driver);

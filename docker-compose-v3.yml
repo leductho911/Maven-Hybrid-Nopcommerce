@@ -39,15 +39,15 @@ services:
       - SE_EVENT_BUS_PUBLISH_PORT=4442
       - SE_EVENT_BUS_SUBSCRIBE_PORT=4443
 
-  chrome_video:
-    image: selenium/video:ffmpeg-4.3.1-20230801
-    volumes:
-      - /tmp/videos:/videos
-    depends_on:
-      - chrome
-    environment:
-      - DISPLAY_CONTAINER_NAME=chrome
-      - FILE_NAME=chrome_video.mp4
+  #  chrome_video:
+  #    image: selenium/video:ffmpeg-4.3.1-20230801
+  #    volumes:
+  #      - /tmp/videos:/videos
+  #    depends_on:
+  #      - chrome
+  #    environment:
+  #      - DISPLAY_CONTAINER_NAME=chrome
+  #      - FILE_NAME=chrome_video.mp4
 
   selenium-hub:
     image: selenium/hub

@@ -13,7 +13,6 @@ public class CheckoutPageObj extends BasePage {
 		this.driver = driver;
 	}
 
-
 	@Step("Click to button {1} at section {0}")
 	public void clickToButtonBySection(String section, String button) {
 		waitForElementClickable(CheckoutPageUI.SECTION_BUTTON_DYNAMIC, section, button);

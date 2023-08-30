@@ -4,18 +4,12 @@ import commons.BasePage;
 import io.qameta.allure.Step;
 import org.openqa.selenium.WebDriver;
 import pageUIs.AddressesPageUI;
-import pageUIs.CustomerInfoPageUI;
 
 public class AddressesPageObj extends BasePage {
-	private WebDriver driver;
 
 	public AddressesPageObj(WebDriver driver) {
 		super(driver);
-		this.driver = driver;
 	}
-
-
-
 
 	@Step("Verify Address Name")
 	public String getAddressName() {

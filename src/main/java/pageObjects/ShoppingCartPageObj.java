@@ -17,14 +17,11 @@ public class ShoppingCartPageObj extends BasePage {
 		this.driver = driver;
 	}
 
-
 	@Step("Verify product {0} is displayed at Shopping Cart page")
 	public boolean isProductDisplayedAtShoppingCartPage(String productName) {
-		List<WebElement> listWebElement = getListWebElement(ShoppingCartPageUI.PRODUCT_NAME);
-		return listWebElement.stream()
-				.anyMatch(element -> element.getText().toLowerCase().contains(productName.toLowerCase()));
+		List<WebElement> productLists = getListWebElement(ShoppingCartPageUI.PRODUCT_NAME);
+		return isKeywordDisplayedInList(productLists, productName);
 	}
-
 
 	@Step("Click to Edit button of product '{0}'")
 	public ProductDetailPageObj clickToEditProductInShoppingCart(String productName) {
