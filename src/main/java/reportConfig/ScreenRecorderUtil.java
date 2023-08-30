@@ -72,16 +72,4 @@ public class ScreenRecorderUtil extends ScreenRecorder {
 		return new File(movieFolder, fileName);
 	}
 
-//	@Override
-//	protected File createMovieFile(Format fileFormat) throws IOException {
-//
-//		if (!movieFolder.exists()) {
-//			movieFolder.mkdirs();
-//		} else if (!movieFolder.isDirectory()) {
-//			throw new IOException("\"" + movieFolder + "\" is not a directory.");
-//		}
-//		SimpleDateFormat dateFormat = new SimpleDateFormat("yyyy-MM-dd HH.mm.ss");
-//		return new File(movieFolder,
-//				name + "-" + dateFormat.format(new Date()) + "." + Registry.getInstance().getExtension(fileFormat));
-//	}
 }
