@@ -73,6 +73,12 @@ public class CustomerInfoPageObj extends BasePage {
 		return getSelectedItemDefaultDropdown(CustomerInfoPageUI.YEAR_DROPDOWN);
 	}
 
+	@Step("Verify Email value")
+	public String getEmail() {
+		waitForElementVisible(CustomerInfoPageUI.EMAIL_TEXTBOX);
+		return getElementAttribute("value", CustomerInfoPageUI.EMAIL_TEXTBOX);
+	}
+
 	@Step("Verify Company name value")
 	public String getCompanyName() {
 		waitForElementVisible(CustomerInfoPageUI.COMPANY_NAME_TEXTBOX);

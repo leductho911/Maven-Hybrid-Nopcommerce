@@ -11,8 +11,8 @@
     <test name="Chrome Test" preserve-order="true">
         <parameter name="browser_name" value="Chrome"/>
         <classes>
-            <!--            <class name="commonTest.RegisterAndLogin"/>-->
-            <class name="user.Notebooks"/>
+            <class name="commonTest.RegisterAndLogin"/>
+            <class name="user.MyAccount"/>
         </classes>
     </test>
 
